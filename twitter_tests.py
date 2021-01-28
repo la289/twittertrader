@@ -137,18 +137,19 @@ def test_get_sentiment_emoji(twitter):
 
 
 def test_get_tweet(twitter):
-    tweet = twitter.get_tweet("845334323045765121")
+    tweet = twitter.get_tweet("1354885704615157761")
+    print(tweet["full_text"])
     assert tweet["full_text"] == (
-        "Today, I was thrilled to announce a commitment of $25 BILLION &amp; 2"
-        "0K AMERICAN JOBS over the next 4 years. THANK YOU Charter Communicati"
-        "ons! https://t.co/PLxUmXVl0h")
-    assert tweet["id_str"] == "845334323045765121"
-    assert tweet["user"]["id_str"] == "25073877"
-    assert tweet["user"]["screen_name"] == "realDonaldTrump"
-    assert tweet["created_at"] == "Fri Mar 24 17:59:42 +0000 2017"
+        "This is mostly what you need to know for $ETH "
+        "https://t.co/Oc5uCi4zbu"
+    )
+    assert tweet["id_str"] == "1354885704615157761"
+    assert tweet["user"]["id_str"] == "1091099554605395968"
+    assert tweet["user"]["screen_name"] == "ShardiB2"
+    assert tweet["created_at"] == "Thu Jan 28 20:14:59 +0000 2021"
 
 
 def test_get_tweet_link(twitter):
-    tweet = twitter.get_tweet("828574430800539648")
+    tweet = twitter.get_tweet("1354888469408051202")
     assert twitter.get_tweet_link(tweet) == (
-        "https://twitter.com/realDonaldTrump/status/828574430800539648")
+        "https://twitter.com/ShardiB2/status/1354888469408051202")

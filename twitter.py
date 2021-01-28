@@ -1,5 +1,5 @@
 from json import loads
-from os import getenv
+from os import getenv #Might be able to remove this dependency
 from queue import Empty
 from queue import Queue
 from threading import Event
@@ -13,8 +13,11 @@ from tweepy.streaming import StreamListener
 
 from logs import Logs
 
+from dotenv import load_dotenv
+load_dotenv()
+
 # The keys for the Twitter account we're using for API requests and tweeting
-# alerts (@Trump2Cash). Read from environment variables.
+# alerts (@ twittertraderbot). Read from environment variables.
 TWITTER_ACCESS_TOKEN = getenv("TWITTER_ACCESS_TOKEN")
 TWITTER_ACCESS_TOKEN_SECRET = getenv("TWITTER_ACCESS_TOKEN_SECRET")
 
@@ -23,11 +26,11 @@ TWITTER_ACCESS_TOKEN_SECRET = getenv("TWITTER_ACCESS_TOKEN_SECRET")
 TWITTER_CONSUMER_KEY = getenv("TWITTER_CONSUMER_KEY")
 TWITTER_CONSUMER_SECRET = getenv("TWITTER_CONSUMER_SECRET")
 
-# The user ID of @realDonaldTrump.
-TRUMP_USER_ID = "25073877"
+# The user ID of influencer.
+INFLUENCER_USER_ID = getenv("INFLUENCER_TWITTER_ID")
 
-# The user ID of @Trump2Cash.
-TRUMP2CASH_USER_ID = "812529080998432769"
+# The twitter user ID of bot user.
+BOT_USER_ID = getenv("BOT_USER_ID")
 
 # The URL pattern for links to tweets.
 TWEET_URL = "https://twitter.com/%s/status/%s"
@@ -82,7 +85,7 @@ class Twitter:
         twitter_stream = Stream(self.twitter_auth, self.twitter_listener)
 
         self.logs.debug("Starting stream.")
-        twitter_stream.filter(follow=[TRUMP_USER_ID])
+        twitter_stream.filter(follow=[INFLUENCER_USER_ID])
 
         # If we got here because of an API error, raise it.
         if self.twitter_listener and self.twitter_listener.get_error_status():
@@ -183,17 +186,17 @@ class Twitter:
         return status._json
 
     def get_all_tweets(self):
-        """Looks up metadata for the most recent Trump tweets."""
+        """Looks up metadata for the most recent Influencer tweets."""
 
         tweets = []
 
         # Only the 3,200 most recent tweets are available through the API. Use
-        # the @Trump2Cash account to filter down to the relevant ones.
+        # the @twittertraderbot account to filter down to the relevant ones.
         for status in Cursor(self.twitter_api.user_timeline,
-                             user_id=TRUMP2CASH_USER_ID,
+                             user_id=BOT_USER_ID,
                              exclude_replies=True).items():
 
-            # Extract the quoted @realDonaldTrump tweet, if available.
+            # Extract the quoted influencer tweet, if available.
             try:
                 quoted_tweet_id = status.quoted_status_id
             except AttributeError:
@@ -359,9 +362,9 @@ class TwitterListener(StreamListener):
             logs.error("Malformed tweet: %s" % tweet)
             return
 
-        # We're only interested in tweets from Mr. Trump himself, so skip the
+        # We're only interested in tweets from the influencer him/herself, so skip the
         # rest.
-        if user_id_str != TRUMP_USER_ID:
+        if user_id_str != INFLUENCER_USER_ID:
             logs.debug("Skipping tweet from user: %s (%s)" %
                        (screen_name, user_id_str))
             return
