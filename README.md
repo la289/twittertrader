@@ -1,28 +1,24 @@
-# Trump2Cash
+# twitterTrader
 
-This bot watches [Donald Trump's tweets](https://twitter.com/realDonaldTrump)
-and waits for him to mention any publicly traded companies. When he does, it
+This bot watches an Influencer's twitter and waits for the influencer to mention
+any publicly traded companies. When he does, it
 uses sentiment analysis to determine whether his opinions are positive or
 negative toward those companies. The bot then automatically executes trades on
 the relevant stocks according to the expected market reaction. It also tweets
-out a summary of its findings in real time at
-[@Trump2Cash](https://twitter.com/Trump2Cash).
+out a summary of its findings in real time.
 
-*You can read more about the background story [here](https://trump2cash.biz).*
-
-[![Trump2Cash](https://cdn-images-1.medium.com/max/1400/1*VbnhlLnZz0KvWO0QsM5Ihw.png)](https://trump2cash.biz)
 
 The code is written in Python and is meant to run on a
 [Google Compute Engine](https://cloud.google.com/compute/) instance. It uses the
 [Twitter Streaming APIs](https://dev.twitter.com/streaming/overview) to get
-notified whenever Trump tweets. The entity detection and sentiment analysis is
+notified whenever Influencer tweets. The entity detection and sentiment analysis is
 done using Google's
 [Cloud Natural Language API](https://cloud.google.com/natural-language/) and the
 [Wikidata Query Service](https://query.wikidata.org/) provides the company data.
 The [TradeKing API](https://developers.tradeking.com/) does the stock trading.
 
 The [`main`](main.py) module defines a callback where incoming tweets are
-handled and starts streaming Trump's feed:
+handled and starts streaming the influencer's feed:
 
 ```python
 def twitter_callback(tweet):
@@ -53,18 +49,6 @@ then SSH into it for the steps below. Pick a predefined
 [machine type](https://cloud.google.com/compute/docs/machine-types) matching
 your preferred price and performance.
 
-#### Container
-
-Alternatively, you can use the [`Dockerfile`](Dockerfile) to build a
-[Docker container](https://www.docker.com/what-container) and
-[run it on Compute Engine](https://cloud.google.com/compute/docs/containers/deploying-containers)
-or other platforms.
-
-```shell
-docker build -t trump2cash .
-docker tag trump2cash gcr.io/<YOUR_GCP_PROJECT_NAME>/trump2cash
-docker push gcr.io/<YOUR_GCP_PROJECT_NAME>/trump2cash:latest
-```
 
 ### 2. Set up auth
 
