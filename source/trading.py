@@ -46,7 +46,7 @@ FIXML_NAMESPACE = "http://www.fixprotocol.org/FIXML-5-0-SP2"
 FIXML_HEADERS = {"Content-Type": "text/xml"}
 
 # how long to hold the stock for:
-SELL_AFTER_MIN = 15
+SELL_AFTER_MIN = 90
 
 # The amount of cash in dollars to hold from being spent.
 CASH_HOLD = 1000
