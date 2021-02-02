@@ -5,10 +5,10 @@ from threading import Event
 from threading import Thread
 from time import sleep
 
-from analysis import Analysis
-from logs import Logs
-from trading import Trading
-from twitter import Twitter
+from source.analysis import Analysis
+from source.logs import Logs
+from source.trading import Trading
+from source.twitter import Twitter
 
 # Whether to send all logs to the cloud instead of a local file.
 LOGS_TO_CLOUD = True
@@ -81,7 +81,7 @@ class Main:
         self.twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
 
     def twitter_callback(self, tweet):
-        """Analyzes Trump tweets, trades stocks, and tweets about it."""
+        """Analyzes  tweets, trades stocks, and tweets about it."""
 
         # Initialize the Analysis, Logs, Trading, and Twitter instances inside
         # the callback to create separate httplib2 instances per thread.
