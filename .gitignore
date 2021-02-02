@@ -90,3 +90,6 @@ ENV/
 
 # Visual Studio Code
 .vscode
+
+# Ignoring google specific keys
+assets/TwitterTrader-438512900cdf.json
