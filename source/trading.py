@@ -45,7 +45,7 @@ FIXML_NAMESPACE = "http://www.fixprotocol.org/FIXML-5-0-SP2"
 # The HTTP headers for FIXML requests.
 FIXML_HEADERS = {"Content-Type": "text/xml"}
 
-# how long to hold the stock for:
+# how long to hold the stock for: #CURRENTLY SELLS AT EOD
 SELL_AFTER_MIN = 90
 
 # The amount of cash in dollars to hold from being spent.

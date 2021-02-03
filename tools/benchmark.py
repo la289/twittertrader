@@ -1,9 +1,18 @@
 from datetime import datetime
 from tqdm import tqdm
 
+import os
+import sys
+currentdir = os.path.dirname(os.path.realpath(__file__))
+parentdir = os.path.dirname(currentdir)
+sys.path.append(parentdir + '/source')
+sys.path.append(parentdir)
+
 from source.analysis import Analysis
 from source.trading import Trading
 from source.twitter import Twitter
+
+
 
 # The initial amount in dollars for the fund simulation.
 FUND_DOLLARS = 100000
@@ -142,7 +151,7 @@ if __name__ == "__main__":
             strategy = trading.get_strategy(company, market_status)
 
             # What was the price at tweet and at EOD?
-            price = trading.get_historical_prices_T_min(
+            price = trading.get_historical_prices(
                 company["ticker"], timestamp)
             if price:
                 strategy["price_at"] = price["at"]
@@ -154,7 +163,6 @@ if __name__ == "__main__":
             strategies.append(strategy)
 
         event["strategies"] = strategies
-        print("EVENT", event)
         events.append(event)
 
     # Make sure the events are ordered by ascending timestamp.

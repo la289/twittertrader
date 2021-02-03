@@ -47,6 +47,10 @@ def make_entity(name, type, metadata, salience, mentions):
     entity.mentions = mentions
     return entity
 
+def test_get_monkey_sentiment(analysis):
+    result = analysis.get_monkey_sentiment("to the moon")
+    print(result)
+    assert result
 
 def test_get_company_data_1(analysis):
     assert analysis.get_company_data("/m/035nm") == [{

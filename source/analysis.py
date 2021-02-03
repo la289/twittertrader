@@ -7,10 +7,16 @@ from requests import get
 from requests.exceptions import HTTPError
 from urllib.parse import quote_plus
 from source.text_processor import TextProcessor
-
+from monkeylearn import MonkeyLearn
 from source.logs import Logs
 from source.twitter import Twitter
 
+from os import getenv
+from dotenv import load_dotenv
+load_dotenv()
+
+MONKEYLEARN_API_KEY = getenv('MONKEYLEARN_API_KEY')
+MONKEYLEARN_MODEL_ID = getenv('MONKEYLEARN_MODEL_ID')
 # The URL for a GET request to the Wikidata API. The string parameter is the
 # SPARQL query.
 WIKIDATA_QUERY_URL = "https://query.wikidata.org/sparql?query=%s&format=JSON"
@@ -62,6 +68,7 @@ class Analysis:
         self.logs = Logs(name="analysis", to_cloud=logs_to_cloud)
         self.language_client = language.LanguageServiceClient()
         self.twitter = Twitter(logs_to_cloud=logs_to_cloud)
+        self.ml = MonkeyLearn(MONKEYLEARN_API_KEY)
 
     def get_company_data(self, mid):
         """Looks up stock ticker information for a company via its Freebase ID.
@@ -282,7 +289,7 @@ class Analysis:
             mentions)
 
     def get_sentiment(self, text):
-        """Extracts a sentiment score [-1, 1] from text."""
+        """Poll Google's NLU API and extract a sentiment score [-1, 1] from text."""
 
         if not text:
             self.logs.warn("No sentiment for empty text.")
@@ -300,3 +307,28 @@ class Analysis:
             (sentiment.score, sentiment.magnitude, text))
 
         return sentiment.score
+
+    def get_monkey_sentiment(self, text):
+        if not text:
+            self.logs.warn("No sentiment for empty text.")
+            return 0
+
+        response = self.ml.classifiers.classify(model_id = MONKEYLEARN_MODEL_ID, data=[text])
+        result = response.body[0]
+
+        if not result or result['error'] != False or not result['classifications']:
+            self.logs.error(f'Failed to obtain sentiment score for text: {text}')
+            return 0
+
+        sentiment = int(result['classifications'][0]['tag_name']) # 0 = negative, 1 = positive
+        confidence = result['classifications'][0]['confidence'] #confidence score 0 to 1
+
+        # #scale the result to -1 to 1 scale
+        # if tag_name == 0:
+        #     sentiment = confidence*-1
+        # else:
+        #     sentiment = confidence
+
+        return sentiment
+
+
