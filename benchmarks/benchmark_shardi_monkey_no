@@ -1,0 +1,2323 @@
+{'classifications': [{'confidence': 0.955,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Aphria Inc.\n'
+         '\n'
+         '$13.50 to $14.80 intraday.  10%.  To start. https://t.co/SIgjwbdhv7 '
+         'https://t.co/qIBftdVsTa'}
+{'classifications': [{'confidence': 0.813,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.926,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ethereum\n'
+         '\n'
+         'There it is!   I hope you bought your ticket and one for a friend. '
+         '😃🥂🎉🥳 https://t.co/Rq1NgaSWeU https://t.co/lRUX7oIQK4'}
+{'classifications': [{'confidence': 0.789,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Village Farms International, Inc.\n'
+         '\n'
+         'Remember who is fully funded?\n'
+         '\n'
+         'Party time. https://t.co/ohh8wEM0Ub https://t.co/mhY517usMk'}
+{'classifications': [{'confidence': 0.967,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$14.40....   broke  Aphria Inc. https://t.co/0RLsA1o473 '
+         'https://t.co/FYfZNSY2gB'}
+{'classifications': [{'confidence': 0.837,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Hope you did not take me off alerts.  Up 25% from last night on the '
+         'break!\n'
+         '\n'
+         'UMA (crypto) https://t.co/tLHnUeXjf5 https://t.co/n2cez8NalF'}
+{'classifications': [{'confidence': 0.692,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Marathon Patent Group, Inc.\n'
+         '\n'
+         'Bullseye. https://t.co/bWzA5SodHH https://t.co/VxPG0n88ha'}
+{'classifications': [{'confidence': 0.819,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.749,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Crossing $14.....   time is a wasting....  Aphria Inc. '
+         'https://t.co/0RLsA1o473 https://t.co/AE1K7OJrE1'}
+{'classifications': [{'confidence': 0.743,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.636,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Just two months ago MicroStrategy Incorporated was $275....now $666\n'
+         '\n'
+         'OMG.  All you had to do was buy the leaps... https://t.co/0ndyjf6tTu'}
+{'classifications': [{'confidence': 0.833,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.781,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "RT Murfski: Incase you don't know already, Don't follow Shardi B if "
+         'you hate money is a market slayer\n'
+         '\n'
+         'My pot stock ETF is up 15% in less than 2 weeks\n'
+         '\n'
+         'No plans to sel…'}
+{'classifications': [{'confidence': 0.967,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Hey Murfski , how is this portfolio going?? 😃 '
+         'https://t.co/OEYd8FrOUR'}
+{'classifications': [{'confidence': 0.964,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BOOOM.\n'
+         '\n'
+         'She is back!!  Aurora Cannabis Inc. https://t.co/UuTSspiD7J '
+         'https://t.co/WaGtAtvGuk'}
+{'classifications': [{'confidence': 0.695,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.737,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$VYGVF https://t.co/SgCrEeSE0Y https://t.co/TDeYeWfCa9'}
+{'classifications': [{'confidence': 0.822,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Just remember who was uber bullish Ethereum when everyone else went '
+         'bear.  🥳🎉\n'
+         '\n'
+         'WE DID IT, VALHALLA AWAITS!!!!!!!… https://t.co/xYb5t6Oqnv'}
+{'classifications': [{'confidence': 0.654,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Perfect test.  Don't follow Shardi B if you hate money lines dead on "
+         'again. https://t.co/4PHFvkeBwa https://t.co/8eiW8T25Sp'}
+{'classifications': [{'confidence': 0.631,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.66,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Feels like just yesterday...oh it was!!  Aurora Cannabis Inc. '
+         'https://t.co/646yZQPXGF https://t.co/YFZC1WwObP'}
+{'classifications': [{'confidence': 0.711,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.711,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Listen to yo girl...  Canopy Growth Corporation\n'
+         '\n'
+         'BOOM!!!! https://t.co/zShZLbGezh https://t.co/PqjmQgVoEc'}
+{'classifications': [{'confidence': 0.714,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Thank god for Virgin Galactic Holdings, Inc..\n'
+         '\n'
+         'Looking ready for more... https://t.co/mZgutUnnQ2 '
+         'https://t.co/2VCXlfo9il'}
+{'classifications': [{'confidence': 0.832,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ideanomics, Inc. https://t.co/ElS3BDMxNe https://t.co/d7hbSoJkIf'}
+{'classifications': [{'confidence': 0.931,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This is important.  Raoul Pal is putting us on alert.  One premarket '
+         'green day does not necessarily change things.… '
+         'https://t.co/7q3acY79ei'}
+{'classifications': [{'confidence': 0.579,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Wish I still has the Avino Silver & Gold Mines Ltd..  Up 150% this '
+         'morn.  They also raised money 3 days ago, wish I knew.… '
+         'https://t.co/fYAaj8ZSS0'}
+{'classifications': [{'confidence': 0.922,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Here was my #silver list from the summer.. https://t.co/UwyTnUXxRe'}
+{'classifications': [{'confidence': 0.756,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This has been my thesis. \n'
+         '\n'
+         'Raoul Pal thesis throwing me off a bit.\n'
+         '\n'
+         'One has to do with economy, the other, market s… '
+         'https://t.co/YHW6M25o1o'}
+{'classifications': [{'confidence': 0.869,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.636,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ethereum\n\nLFG.\n\n#weekendsaremadeforeth https://t.co/wSztOyRXNj'}
+{'classifications': [{'confidence': 0.811,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Last one, I retweet these so you remember for next time. '
+         'https://t.co/6a2JY3tQHl'}
+{'classifications': [{'confidence': 0.569,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "RT Saylor V: I already had calls, but now I've added equity. Don't "
+         "bet against two of the greats K A L E O Don't follow Shardi B if you "
+         'hate money Ballard Power Systems Inc. https:…'}
+{'classifications': [{'confidence': 0.621,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.604,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#ListentoShardi  Solana https://t.co/EHJyPXPQP2 '
+         'https://t.co/zTpbmFnkXJ'}
+{'classifications': [{'confidence': 0.889,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'LOVE THIS. https://t.co/SI0gNMS7ou'}
+{'classifications': [{'confidence': 0.724,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This is EXACTLY what I was saying about the SPDR S&P 500 ETF Trust\n'
+         '\n'
+         'Buy dips on things that are down.  Market is ready to roar right… '
+         'https://t.co/grrye1eF2P'}
+{'classifications': [{'confidence': 0.754,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.64,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Sunworks, Inc. 100m shelf offering...ugh. https://t.co/zD6VxPduV1'}
+{'classifications': [{'confidence': 0.848,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.888,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'There you go.  They raised money at $1.55... Genius Brands '
+         'International, Inc. https://t.co/15EF0fCGV1'}
+{'classifications': [{'confidence': 0.8, 'tag_id': 123542668, 'tag_name': '0'},
+                     {'confidence': 0.569,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Let's do this Genius Brands International, Inc. "
+         'https://t.co/Qa3QJhNOGi'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "I'm still bullish Ethereum... https://t.co/lSquzUVyhb "
+         'https://t.co/jjAtCh2KrB'}
+{'classifications': [{'confidence': 0.803,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BOOOOM (again)\n'
+         '\n'
+         'Genius Brands International, Inc.\n'
+         '\n'
+         'Need this today while our other holdings reset.. '
+         'https://t.co/RJMbXBq2VF https://t.co/ivlmOfD2aT'}
+{'classifications': [{'confidence': 0.82, 'tag_id': 123542670, 'tag_name': '1'},
+                     {'confidence': 0.809,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Can't wait for ATH's....  :)\n"
+         '\n'
+         'Genius Brands International, Inc. https://t.co/sFomx88Ysz'}
+{'classifications': [{'confidence': 0.833,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Virgin Galactic Holdings, Inc.\n'
+         '\n'
+         '$34 to $56 in two days!!!\n'
+         '\n'
+         "It's no AMC Entertainment Holdings, Inc. but still... "
+         'https://t.co/CHzIyBKQ9x'}
+{'classifications': [{'confidence': 0.64,
+                      'tag_id': 123542669,
+                      'tag_name': '-1'},
+                     {'confidence': 0.618,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Luminar Technologies, Inc.\n'
+         '\n'
+         'What was I saying about that chart???\n'
+         '\n'
+         "New ATH's on deck.. https://t.co/FkbzsehQkJ https://t.co/juZnaI6fan"}
+{'classifications': [{'confidence': 0.892,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Jumia Technologies AG\n'
+         '\n'
+         'BOOOM. https://t.co/iwd3ORegCd https://t.co/4zzPfxlKNa'}
+{'classifications': [{'confidence': 0.631,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BOOOOOOOOM..    Virgin Galactic Holdings, Inc. '
+         'https://t.co/oF2FPGonBI https://t.co/SxkqBl4Ov1'}
+{'classifications': [{'confidence': 0.889,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Canopy Growth Corporation tapping resistance... '
+         'https://t.co/N6VeI58zCS https://t.co/SKvrLNLuoq'}
+{'classifications': [{'confidence': 0.804,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.631,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'What was I saying about Virgin Galactic Holdings, Inc.?\n'
+         '\n'
+         'Could have bought it at $40 today, now $48 https://t.co/oF2FPGonBI '
+         'https://t.co/qdOjKyPVfp'}
+{'classifications': [{'confidence': 0.873,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Clover Health Investments, Corp.\n'
+         '\n'
+         'Up on a bad day... Chamath Palihapitiya going on CNBC at 12:30 '
+         'https://t.co/nJ2gpqb62w https://t.co/8oau1YB2yT'}
+{'classifications': [{'confidence': 0.914,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Added over 100 Ballard Power Systems Inc. calls.  Now you know why '
+         'https://t.co/d6w5UXUMkL https://t.co/PUwMqWqrlU'}
+{'classifications': [{'confidence': 0.938,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Virgin Galactic Holdings, Inc. at $40.40\n'
+         '\n'
+         'If you added where I suggested yesterday you are up almost 20% and '
+         'over $6 https://t.co/CHzIyBKQ9x'}
+{'classifications': [{'confidence': 0.924,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'So damn EZ.  Jumia Technologies AG https://t.co/iwd3ORegCd '
+         'https://t.co/P68WrcUm5s'}
+{'classifications': [{'confidence': 0.795,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Better put me on alerts.... Solana ripping https://t.co/iHWonygXss '
+         'https://t.co/0Mj7sILiTc'}
+{'classifications': [{'confidence': 0.774,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Virgin Galactic Holdings, Inc. opening above $37\n'
+         '\n'
+         'This was a STEAL yesterday at $34.  Gave you the bottom! '
+         'https://t.co/BxEytByrlL https://t.co/CJlvBqrVXd'}
+{'classifications': [{'confidence': 0.869,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.794,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'US Cannabis.  AdvisorShares Pure US Cannabis ETF '
+         'https://t.co/kPKcpnwofj'}
+{'classifications': [{'confidence': 0.711,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Some not feeling great this morn... Ethereum https://t.co/cqZiYBCPMF'}
+{'classifications': [{'confidence': 0.883,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Could not have given you better timing for that add.  Chart looks '
+         'primed now and RSI just crossing 70.  Bang Bang… '
+         'https://t.co/sXwjNUvZlv'}
+{'classifications': [{'confidence': 0.685,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ideanomics, Inc.\n'
+         '\n'
+         'Like I said, clean test, up we go!\n'
+         '\n'
+         'Breaking through all resistance at this point, also RSI just '
+         'crossing 70… https://t.co/mFPRWGpYL1'}
+{'classifications': [{'confidence': 0.773,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BOOOOOOOOOOOM!!!!!!!!!!!!!!!\n'
+         '\n'
+         'Gevo, Inc.   🥳🥂🎉 https://t.co/EGIxb8TPuJ https://t.co/Uyv0YV5Qj5'}
+{'classifications': [{'confidence': 0.751,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.563,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'So now this gives us more room to run up into a stimulus '
+         'announcement again?😀 https://t.co/Dpz5ivnrDP'}
+{'classifications': [{'confidence': 0.874,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Jumia Technologies AG making me tons of jahmoney...\n'
+         '\n'
+         'EZPZ. https://t.co/UYelQxmj6m https://t.co/h2AzvTwt5T'}
+{'classifications': [{'confidence': 0.926,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.726,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "NIO Limited going to ATH's IMO fast.. https://t.co/1o7Lk0rjid "
+         'https://t.co/RvxTnA5Rjp'}
+{'classifications': [{'confidence': 0.825,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Less than 1 month since the original tweet.  $5.25 to $23.75.\n'
+         '\n'
+         'Skate to where you think the puck is GOING to be..… '
+         'https://t.co/XeJhsE39b0'}
+{'classifications': [{'confidence': 0.966,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Just follow my lead fam... I'll take you there.  Ethereum "
+         'https://t.co/B4kxvFAvlG https://t.co/gm3akYsYPH'}
+{'classifications': [{'confidence': 0.832,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.62,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#midastouch #teamshardi \n'
+         '\n'
+         'Gevo, Inc. https://t.co/EGIxb8TPuJ https://t.co/llaqRq28ML'}
+{'classifications': [{'confidence': 0.815,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "As I was saying....can't make this any easier for you folks.\n"
+         '\n'
+         'SunPower Corporation https://t.co/VXjmPDywek https://t.co/zMUjguOkCU'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'We doing this.  Ethereum https://t.co/LzpnNUWcn2 '
+         'https://t.co/lCv9SMQdjv'}
+{'classifications': [{'confidence': 0.781,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.661,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Those Apple Inc. LEAPS are starting to print and were a no brainer '
+         'https://t.co/AHfh8hLBYs https://t.co/keAeS458pk'}
+{'classifications': [{'confidence': 0.794,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'EZPZ.  NIO Limited https://t.co/AsSJl0DPm4 https://t.co/L0djpPGmgx'}
+{'classifications': [{'confidence': 0.672,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.718,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'You forgot I am from the future.\n'
+         '\n'
+         'Jumia Technologies AG one day later.  ATH\n'
+         '\n'
+         'BOOOOOOOM https://t.co/UYelQxmj6m https://t.co/RBgDG0EMUj'}
+{'classifications': [],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited    Like I was saying.. I liked the way this was setting '
+         'up https://t.co/lWojWEHtvB https://t.co/SpXBwdlISy'}
+{'classifications': [{'confidence': 0.929,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Very cool overlay chart of Plug Power Inc. and SunPower Corporation\n'
+         '\n'
+         'Lots o Room... https://t.co/cw1QZuCPJc'}
+{'classifications': [{'confidence': 0.932,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Niu Technologies \n'
+         '\n'
+         '10 days later, 12 points later, 35% later  #teamshardi '
+         'https://t.co/DZOQvYaqDQ https://t.co/5DNcp9gJ6F'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542668, 'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Apparently the Canadian #potstocks listened.  Need to call them '
+         'creative bad names again in the future. https://t.co/VRXfjVeNPs'}
+{'classifications': [{'confidence': 0.939,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Time to bring back this chart for you.\n'
+         '\n'
+         'SunPower Corporation https://t.co/j87CdhNQJU'}
+{'classifications': [{'confidence': 0.878,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'RT Crypto Damus: Girl nailed it https://t.co/r3yyNc6DHT'}
+{'classifications': [{'confidence': 0.699,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ford Motor Company https://t.co/42cE0zODZg'}
+{'classifications': [{'confidence': 0.792,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Healthy as an athlete..  \n'
+         '\n'
+         'Break $1361 and once again you will be beating yourself up for not '
+         'buying the dip (if no… https://t.co/UxL9QbJaiR'}
+{'classifications': [{'confidence': 0.703,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Did it again...up over 5% in less than an hour...  looking for $12+\n'
+         '\n'
+         'Gevo, Inc.\n'
+         '\n'
+         'LFG https://t.co/BMmyPBynWv https://t.co/m8LaXzAczQ'}
+{'classifications': [{'confidence': 0.806,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Either I am moving markets with my tweets or my timing is amazing, '
+         'either way, this moved fast...  Opendoor Technologies Inc.\n'
+         '\n'
+         'ALSO, sto… https://t.co/FOA8z6huu6'}
+{'classifications': [{'confidence': 0.701,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.661,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'GIFTS I told ya!  Friday was such a great day to go shopping! '
+         'https://t.co/en7z3El4Tj'}
+{'classifications': [{'confidence': 0.651,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I just spoon feed cash into your mouths....like my little baby '
+         'birds....   Sunworks, Inc. https://t.co/5AgCmU2zm1 '
+         'https://t.co/pzyXsuBqlq'}
+{'classifications': [{'confidence': 0.967,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'At this point even I am Apeing into my next call....   Niu '
+         'Technologies\n'
+         '\n'
+         'BEAST MODE!!! https://t.co/dthrY6NU1i https://t.co/C9ZbXWPaXp'}
+{'classifications': [{'confidence': 0.962,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Smart Man...   Ethereum https://t.co/rfk5L6JS1M'}
+{'classifications': [{'confidence': 0.952,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#dontforget  SunPower Corporation https://t.co/d1oCS4De2a '
+         'https://t.co/FlDacQCSVB'}
+{'classifications': [{'confidence': 0.695,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited looking strong, great buying opp last week... '
+         'https://t.co/1o7Lk0rjid https://t.co/NT5ny9QnVS'}
+{'classifications': [{'confidence': 0.521,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.575,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#teamshardi https://t.co/fhGk2WzCjq'}
+{'classifications': [{'confidence': 0.784,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.773,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Breakfast of Champions. \n'
+         '\n'
+         'Our girl never fails...    JC https://t.co/geNA58bLzb'}
+{'classifications': [{'confidence': 0.752,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I wanted to address this, looks like $OBTC will be 75% less '
+         'management fee than Grayscale Bitcoin Trust (BTC).  Lockup is 1 year '
+         'for privat… https://t.co/RnDRRUJYKt'}
+{'classifications': [{'confidence': 0.955,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '1500%....  #WINNING  #TEAMSHARDI https://t.co/OJkcFgqzAd'}
+{'classifications': [{'confidence': 0.712,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'How to trade my calls, a thread... https://t.co/0JGr2Ze6Zx'}
+{'classifications': [{'confidence': 0.82,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "508 likes thus far...that's some good influence   #GoGrayscale "
+         'https://t.co/oqJEOCeC7g'}
+{'classifications': [{'confidence': 0.558,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.758,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I did not even realize my man K A L E O was on this.\n'
+         '\n'
+         'You had me, Altcoin Psycho , The Wolf Of All Streets and K A L E O… '
+         'https://t.co/t21Ev4vdNi'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Don't sleep on Canopy Growth Corporation.  The largest producer, "
+         'chart looks great and RSI is perfect. https://t.co/9K16UUdlCv '
+         'https://t.co/Xr9x0eAmvU'}
+{'classifications': [{'confidence': 0.711,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "This is how you do Don't follow Shardi B if you hate money .  \n"
+         '\n'
+         'And this is only a fraction.\n'
+         '\n'
+         'Great work Mach 2 Maverick! https://t.co/nN8fBN8oD5'}
+{'classifications': [{'confidence': 0.948,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Just look at this tweet from yesterday.\n'
+         '\n'
+         'I am even amazed at this level of performance and precision.\n'
+         '\n'
+         'Dead on ever… https://t.co/WAVKE2gvwt'}
+{'classifications': [{'confidence': 0.708,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'What was I saying about buying RED?  50% in two days.\n'
+         '\n'
+         'Sunworks, Inc.  Queen status. https://t.co/91Sgra445B '
+         'https://t.co/d22aQXIrNx'}
+{'classifications': [{'confidence': 0.687,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Don't make me tell you again.  SunPower Corporation "
+         'https://t.co/pWFSg1ffmk https://t.co/Uf0U83jDTx'}
+{'classifications': [{'confidence': 0.898,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.6, 'tag_id': 123542668, 'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Are 38% monthly equity gains good?\n'
+         '\n'
+         '#teamshardi https://t.co/spSrCJfvjI'}
+{'classifications': [{'confidence': 0.955,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ur-Energy Inc. is almost a 100% gain and almost at target 1.\n'
+         '\n'
+         '#uranium https://t.co/A4pkWjQR7b https://t.co/UYlSTltBTJ'}
+{'classifications': [{'confidence': 0.617,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.756,
+                      'tag_id': 123542669,
+                      'tag_name': '-1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$CURLF\n'
+         '\n'
+         'There was a reason I hearted that chart...ROCKET '
+         'https://t.co/ss0vxloRox https://t.co/5OZtUGjrmK'}
+{'classifications': [{'confidence': 0.867,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "RT deadbrocks: Don't follow Shardi B if you hate money Shardi Army "
+         'with another win for $FCEL, flipped these calls in less than 24hrs '
+         'for over 100% profit https://t.co/…'}
+{'classifications': [{'confidence': 0.791,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#winning!! https://t.co/V9TRgIBzpN'}
+{'classifications': [{'confidence': 0.694,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NUCLEAR!!! https://t.co/fGIWfqoO7T'}
+{'classifications': [{'confidence': 0.89,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Holy shit, this is hilarious.\n'
+         '\n'
+         'I am putting together a quick place we can all contribute and have '
+         'celebs do Bitcoin an… https://t.co/1bh0M1TMAQ'}
+{'classifications': [{'confidence': 0.773,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'LOL https://t.co/bGuGs0uYd6'}
+{'classifications': [{'confidence': 0.894,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Plug Power Inc.\n'
+         '\n'
+         'Look back at this tweet from only a few months ago.. I was calling '
+         'for $50, now $62.\n'
+         '\n'
+         'FuelCell Energy, Inc. looks like this… https://t.co/SpRzTemVbm'}
+{'classifications': [{'confidence': 0.976,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Yesterday's buys....😄😉 https://t.co/wmw020bA93"}
+{'classifications': [{'confidence': 0.861,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.838,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Took this trade on Diginex Limited yesterday, now at $19 and '
+         'printing... https://t.co/2Jr6MEA869'}
+{'classifications': [{'confidence': 0.888,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'One of my best one day calls...  Niu Technologies\n'
+         '\n'
+         '$35 to $41, and we are just getting started! https://t.co/DZOQvYaqDQ '
+         'https://t.co/1BCjDTfqOc'}
+{'classifications': [{'confidence': 0.729,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'The Goldman Sachs Group, Inc. IS MINTING. https://t.co/aZlvWCxtV5 '
+         'https://t.co/oYsJkivGkG'}
+{'classifications': [{'confidence': 0.684,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'THIS is how you do it! NIO Limited https://t.co/gPyIU5adu0'}
+{'classifications': [{'confidence': 0.892,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This trade literally could not have worked better.  UP $4 already '
+         'from yesterday.\n'
+         '\n'
+         'Niu Technologies\n'
+         '\n'
+         'CHINA!! https://t.co/DZOQvYaqDQ'}
+{'classifications': [{'confidence': 0.764,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BOOOOOOOM\n'
+         '\n'
+         'Plug Power Inc.\n'
+         '\n'
+         "NO ONE GETS PAID LIKE Don't follow Shardi B if you hate money AND "
+         'HER FOLLOWERS!!!\n'
+         '\n'
+         'Also FuelCell Energy, Inc. and Ballard Power Systems Inc. '
+         'https://t.co/2zxKQRf3qQ https://t.co/7CEHIjOYHS'}
+{'classifications': [{'confidence': 0.833,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.751,
+                      'tag_id': 123542669,
+                      'tag_name': '-1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ok, back, took me an hour.   The Palm Beach Island branch is at '
+         'least nice\n'
+         '\n'
+         'This said, what/where was I wiring? I t… https://t.co/OvA32Yzlib'}
+{'classifications': [{'confidence': 0.785,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'The Goldman Sachs Group, Inc. continue to look amazing in price '
+         'discovery.\n'
+         '\n'
+         'This is why we diversify.  Leaps up over 100% and we have a full… '
+         'https://t.co/AXocH91gFd'}
+{'classifications': [{'confidence': 0.964,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Canopy Growth Corporation up 60% from this tweet and breaking to new '
+         'recent highs....  RSI approaching 70\n'
+         '\n'
+         'Our leaps are printing...… https://t.co/emCRzAFWYN'}
+{'classifications': [{'confidence': 0.964,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'GrowGeneration Corp.\n'
+         '\n'
+         '$30 to $48.81.\n'
+         '\n'
+         'MY BUY THE SECONDARY STRATEGY HAS NOT FAILED! '
+         'https://t.co/SFrbgDSeFT https://t.co/qmqbtlwkxy'}
+{'classifications': [{'confidence': 0.951,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Blink Charging Co.\n'
+         '\n'
+         'Deal done at $41, now $47.59...off to the races\n'
+         '\n'
+         'EZPZ https://t.co/MvZDPp13b1 https://t.co/jXqZb7Uu4x'}
+{'classifications': [{'confidence': 0.695,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.728,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited\n'
+         '\n'
+         'New Highs, so much good news.   If the market was not down this '
+         'would be up $10 IMO.\n'
+         '\n'
+         'Chart was just approach… https://t.co/3ZlonPmDpw'}
+{'classifications': [{'confidence': 0.927,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I am going to endorse this message.  Grayscale Bitcoin Trust (BTC) '
+         'Grayscale Ethereum Trust (ETH) https://t.co/nRb9QFKtDo'}
+{'classifications': [{'confidence': 0.813,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.541,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'See, Blink Charging Co. clearly was a trade today, wish I knew it '
+         'earlier.\n'
+         '\n'
+         'Offering priced at $41, stock dips to $41.65 (your s… '
+         'https://t.co/6wipO2zg49'}
+{'classifications': [{'confidence': 0.892,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Score!  Free $mara https://t.co/a0EzRtH7jR'}
+{'classifications': [{'confidence': 0.799,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Was jus discussing with a friend that these needed a break and this '
+         'is a good dip with no bad news. https://t.co/pYCyy8ejaD'}
+{'classifications': [{'confidence': 0.729,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'GrowGeneration Corp.\n'
+         '\n'
+         'Love this one.  Loved it early, loved it after they raised money at '
+         '$29 a few weeks ago and we bought more.… https://t.co/9um5PfgnKz'}
+{'classifications': [{'confidence': 0.898,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$HRVSF\n'
+         '\n'
+         'Almost up 40% and at TP1 https://t.co/VlMZXS7RaZ '
+         'https://t.co/LCcFsiI3iT'}
+{'classifications': [{'confidence': 0.593,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Best Anon account.  I'll take it. https://t.co/rr3CLRwxBZ"}
+{'classifications': [{'confidence': 0.676,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.723,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'You did not have to go back to the summer to make 500%....\n'
+         '\n'
+         'FuelCell Energy, Inc. https://t.co/xdY8GQmhAQ'}
+{'classifications': [{'confidence': 0.92,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "NIO Limited is breaking ATH's RN.\n"
+         '\n'
+         'Remember this summer?  We are now up 400%... https://t.co/LGHPaoTJPf '
+         'https://t.co/HXDKkPVIGL'}
+{'classifications': [{'confidence': 0.797,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.886,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited \n'
+         '\n'
+         '$39.50 off the offering to almost $60 today.  Another 50%.\n'
+         '\n'
+         'New highs will be had today in advance of NIO Limited d… '
+         'https://t.co/yT09CXg1RG'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '50% in a couple of weeks..  Ballard Power Systems Inc. '
+         'https://t.co/2n6amSKAOY https://t.co/I5MocN4UjT'}
+{'classifications': [{'confidence': 0.847,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.662,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Now go back and look at all the Renaissance IPO ETF Chamath '
+         'Palihapitiya stocks I told you to buy.\n'
+         '\n'
+         'FREE MONEY. https://t.co/jrHIJ5wDdb'}
+{'classifications': [{'confidence': 0.569,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'And this is EXACTLY the conclusion I want you to have.\n'
+         '\n'
+         'Read the GMI Ethereum report and go get loaded. '
+         'https://t.co/YdGpQE33hb'}
+{'classifications': [{'confidence': 0.708,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Here is Raoul Pal calling it on the downside.\n'
+         '\n'
+         'If you thought he was a Johnny Come Lately, you are sorely '
+         'mistaken.… https://t.co/cdcObzNmIM'}
+{'classifications': [{'confidence': 0.773,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.8, 'tag_id': 123542668, 'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This Bitcoin tweet from Raoul Pal in 2014 got 1 like.\n'
+         '\n'
+         'Let that sink in. https://t.co/D6hCWAkI9D'}
+{'classifications': [{'confidence': 0.822,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$CURLF https://t.co/CKuRYKDlOY'}
+{'classifications': [{'confidence': 0.874,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I LOVE Chamath Palihapitiya!!!!!!! https://t.co/lZ83a38ppF'}
+{'classifications': [{'confidence': 0.588,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.781,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'EZ MONEY.\n'
+         '\n'
+         'Social Capital Hedosophia Holdings Corp. V\n'
+         '\n'
+         'Trust in Chamath Palihapitiya https://t.co/tQBFceVdF6 '
+         'https://t.co/HZhyW8u2VS'}
+{'classifications': [{'confidence': 0.774,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'SunPower Corporation\n'
+         '\n'
+         'Rocket, but RSI just hitting 70..there may be room left in this '
+         'tank!\n'
+         '\n'
+         'My calls go out to 1/29.  Not selling… https://t.co/emi8eb5SGL'}
+{'classifications': [{'confidence': 0.953,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Sunworks, Inc.\n'
+         '\n'
+         '$4.85 to $7.45 in a week. https://t.co/hGVQoHcymk '
+         'https://t.co/Vjss6gPk1w'}
+{'classifications': [{'confidence': 0.932,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'CBAK Energy Technology, Inc. https://t.co/OWMAriHsw6 '
+         'https://t.co/cWOXKjKIlI'}
+{'classifications': [{'confidence': 0.845,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Grayscale Ethereum Trust (ETH) premium still pretty low and selling '
+         'seems to have dried up....still like this as an easy way to get '
+         'exposure… https://t.co/pmBL9AlUh4'}
+{'classifications': [{'confidence': 0.924,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'The Goldman Sachs Group, Inc.\n'
+         '\n'
+         "Find me a better strike rate on such a high call count... I'm "
+         'waiting... 😉\n'
+         '\n'
+         'I LOVE this play.… https://t.co/BANf6NYMDV'}
+{'classifications': [{'confidence': 0.912,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.732,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '"Just Wow" is my new slogan. https://t.co/GgdZEjAjQD'}
+{'classifications': [{'confidence': 0.868,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "Remember my comment about 'stomach turning buys'? "
+         'https://t.co/NZGjyqLyTd'}
+{'classifications': [{'confidence': 0.558,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.805,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'You would have made a lot of money if you followed this tweet....   '
+         'Marathon Patent Group, Inc. https://t.co/2ud3x71KbZ'}
+{'classifications': [{'confidence': 0.84,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'so nice... https://t.co/qvuic6p6VB'}
+{'classifications': [{'confidence': 0.679,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.637,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'There is a reason AdvisorShares Pure US Cannabis ETF is my favorite '
+         'in the space! https://t.co/TzIESJRPN0 https://t.co/8o69E7Wz9d'}
+{'classifications': [{'confidence': 0.77,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Gave you the trade, and told you why.\n'
+         '\n'
+         'FA + TA\n'
+         '\n'
+         'Canopy Growth Corporation  Congrats!! https://t.co/BRjDPLpqCl '
+         'https://t.co/yKiYUFlcBi'}
+{'classifications': [{'confidence': 0.768,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.631,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'We are long both Village Farms International, Inc. and Canopy Growth '
+         'Corporation as well.\n'
+         '\n'
+         'Calls are going to mint today...\n'
+         '\n'
+         '#potstocks https://t.co/YN7AB2p7L1'}
+{'classifications': [{'confidence': 0.718,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': "The DM's totally stopped after this post LMAO! "
+         'https://t.co/wTuHzPB89T'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'RT Justin: One of the best crypto follows on CT '
+         'https://t.co/ApDI99S4Hj'}
+{'classifications': [{'confidence': 0.617,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'THIS IS THE PLAN FOR MY FEED!!! https://t.co/Q4WwQsjyLS'}
+{'classifications': [{'confidence': 0.926,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$HRVSF\n'
+         '\n'
+         'Up 20% since this post.... https://t.co/VlMZXS7RaZ '
+         'https://t.co/IzyWnRdRqX'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '#WINNING https://t.co/HBvUvjgKLu'}
+{'classifications': [{'confidence': 0.951,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Boom.   NexGen Energy Ltd. up 50% from this call..\n'
+         '\n'
+         '#uranium flying https://t.co/slRdA1nb6o https://t.co/eLuyJkf9wq'}
+{'classifications': [{'confidence': 0.756,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.446,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Freeport-McMoRan Inc.\n'
+         '\n'
+         "Really?  You still don't own it after all this time following me?? "
+         'https://t.co/x4i1U3xTzR https://t.co/xsbYZpfZPQ'}
+{'classifications': [{'confidence': 0.847,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Favorite chart continued...   Pan American Silver Corp.  #silver\n'
+         '\\ https://t.co/hQmQtNablO https://t.co/QYGNcZrJee'}
+{'classifications': [{'confidence': 0.711,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.807,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Please tell me you got long The Goldman Sachs Group, Inc. on this '
+         'call... https://t.co/aZlvWCxtV5 https://t.co/z2C5uzbkCh'}
+{'classifications': [{'confidence': 0.945,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This worked out nicely.  EthereumE now at $13, up a buck and firming '
+         'up.  \n'
+         '\n'
+         'I love this down here...\n'
+         '\n'
+         'Ethereum https://t.co/rfXXkYkKKf'}
+{'classifications': [{'confidence': 0.724,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Bit Digital, Inc.\n'
+         '\n'
+         'WARNING:  You may experience motion sickness when looking at this '
+         'chart. https://t.co/Udak3bTxCp https://t.co/HIulxfEJp0'}
+{'classifications': [{'confidence': 0.808,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited Jan 50 calls up 100% https://t.co/y8MA84iCKl '
+         'https://t.co/9z0ge9CZWe'}
+{'classifications': [{'confidence': 0.784,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'WOW...   26% premium on Grayscale Ethereum Trust (ETH)??\n'
+         '\n'
+         'This thing may actually be tradeable in the open markets now... '
+         'https://t.co/FSajEcjQ0s'}
+{'classifications': [{'confidence': 0.803,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.697,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'NIO Limited\n'
+         '\n'
+         "Easiest trade out there going into NIO Limited day....  ATH's on "
+         'deck. https://t.co/OYc55n38r6 https://t.co/5IFa2Qjrf1'}
+{'classifications': [{'confidence': 0.631,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '20% pullback...perfect level for a reset to move higher... \n'
+         '\n'
+         'Bitcoin https://t.co/KhenPkTrJm'}
+{'classifications': [{'confidence': 0.712,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$IPOC\n'
+         '\n'
+         'Trust in Chamath Palihapitiya \n'
+         '\n'
+         "Don't forget $IPOD, $IPOE, Social Capital Hedosophia Holdings Corp. "
+         'VI https://t.co/chwcjG1ImR'}
+{'classifications': [{'confidence': 0.637,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'These miners are on FIRE today.  #silver #gold '
+         'https://t.co/HZfiattR66'}
+{'classifications': [{'confidence': 1.0, 'tag_id': 123542670, 'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'I zoom in for a reason...check now...critical to hold here and move '
+         'higher IMO\n'
+         '\n'
+         '$ETHBTC https://t.co/tWTAbt4JDp https://t.co/sTLo6kC4r7'}
+{'classifications': [{'confidence': 0.718,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.661,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This kind of says it best.  \n'
+         '\n'
+         'It was always about supply/demand and a fixed amount of Bitcoin.  '
+         'Cut that supply for ne… https://t.co/Dpl5Vm81sx'}
+{'classifications': [{'confidence': 0.713,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'BIG.  Plug Power Inc. https://t.co/F0t7SU8g1C'}
+{'classifications': [{'confidence': 0.893,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Thunder Bridge Acquisition II, Ltd. https://t.co/N8It07jOoM'}
+{'classifications': [{'confidence': 0.758,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'RT Mike Investing: $IPOC 🔥\nZack Morris https://t.co/2quUAiD5Y4'}
+{'classifications': [{'confidence': 0.711,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Listen to Tom!!   Small caps!!   ❤️ https://t.co/4kaWcjNmrm'}
+{'classifications': [{'confidence': 0.822,
+                      'tag_id': 123542670,
+                      'tag_name': '1'},
+                     {'confidence': 0.64,
+                      'tag_id': 123542668,
+                      'tag_name': '0'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'There you go, NIO Limited https://t.co/MwYHMr3WWI'}
+{'classifications': [{'confidence': 0.446,
+                      'tag_id': 123542668,
+                      'tag_name': '0'},
+                     {'confidence': 0.564,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Nice try XRP trying to claim this is bad for the whole industry.  \n'
+         '\n'
+         "It's not, it's actually good.  We need the reg… "
+         'https://t.co/LzfeYKiexD'}
+{'classifications': [{'confidence': 0.934,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Interesting take from Graddhy - Commodities TA+Cycles on XRP and the '
+         "'kickdown' which I have seen many times.\n"
+         '\n'
+         'Saw it from Plug Power Inc. right… https://t.co/TyfHdQIb3e'}
+{'classifications': [{'confidence': 0.754,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'The Walt Disney Company banging out new highs....continue to like '
+         'the leaps here..  we got our pullback https://t.co/63emJQbJMh '
+         'https://t.co/4ABpuDKyAN'}
+{'classifications': [{'confidence': 0.886,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'What was I saying on Ethereum?  soooo juicy... '
+         'https://t.co/dPw34QW4vY https://t.co/kdHTRYXPic'}
+{'classifications': [{'confidence': 0.882,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'AdvisorShares Pure US Cannabis ETF https://t.co/7KlZGOsN9m '
+         'https://t.co/tD55EwRi7d'}
+{'classifications': [{'confidence': 0.953,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Flux Power Holdings, Inc.  Breakout... https://t.co/O0vxKGNOWg '
+         'https://t.co/SycSHXKxvL'}
+{'classifications': [{'confidence': 0.774,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Tuscan Holdings Corp. / Tuscan Holdings Corp.W  looking strong.. '
+         'https://t.co/ZcVWkJtapS https://t.co/UitBNqIlmw'}
+{'classifications': [{'confidence': 0.638,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': '$IPOC\n'
+         '\n'
+         'As mentioned, no brainer at $10.50.  Now $16.70\n'
+         '\n'
+         'Calls are MINTING. https://t.co/2cjyaCuA6N https://t.co/XF8pVf1xwJ'}
+{'classifications': [{'confidence': 0.654,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'Ur-Energy Inc.\n'
+         '\n'
+         'New 52 week high.\n'
+         '\n'
+         'Bang. Bang.\n'
+         '\n'
+         '#uranium https://t.co/A4pkWjQR7b https://t.co/4cuyRkawPc'}
+{'classifications': [{'confidence': 0.852,
+                      'tag_id': 123542670,
+                      'tag_name': '1'}],
+ 'error': False,
+ 'external_id': None,
+ 'text': 'This is fun.   The little PayPal Holdings, Inc. portfolio I put to '
+         'work on Saturday night is already up almost 10%.  This was just… '
+         'https://t.co/2L89xKWDTK'}
+## Benchmark Report
+
+This breakdown of the analysis results and market performance validates the current implementation against historical data.
+
+Use this command to regenerate the benchmark report after changes to the algorithm or data:
+```shell
+$ python benchmark.py > benchmark.md
+```
+
+### Events overview
+
+Here's each tweet with the results of its analysis and individual market performance.
+
+##### [12/28/2020 2:27 PM (Monday)](https://twitter.com/ShardiB2/status/1343639674364026882)
+
+> $DIS banging out new highs....continue to like the leaps here..  we got our pullback https://t.co/63emJQbJMh https://t.co/4ABpuDKyAN
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+The Walt Disney Company | - | 1.0 :thumbsup: | bull | positive sentiment
+The Walt Disney Company | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+The Walt Disney Company | Northern Trust | 1.0 :thumbsup: | bull | positive sentiment
+The Walt Disney Company | T. Rowe Price | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+DIS | New York Stock Exchange | $178.30 | $179.65 | 0.757%
+BLK | New York Stock Exchange | $710.56 | $710.18 | -0.053%
+NTRS | NASDAQ | $92.68 | $92.48 | -0.216%
+TROW | NASDAQ | $148.28 | $148.06 | -0.145%
+
+##### [12/28/2020 2:54 PM (Monday)](https://twitter.com/ShardiB2/status/1343646513143148544)
+
+> Interesting take from @graddhybpc on $XRP and the 'kickdown' which I have seen many times.
+
+> 
+
+> Saw it from $PLUG right… https://t.co/TyfHdQIb3e
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Plug Power | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PLUG | NASDAQ | $34.14 | $33.70 | -1.289%
+
+##### [12/30/2020 2:02 PM (Wednesday)](https://twitter.com/ShardiB2/status/1344358115974799363)
+
+> BIG.  $PLUG https://t.co/F0t7SU8g1C
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Plug Power | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PLUG | NASDAQ | $34.06 | $34.79 | 2.143%
+
+##### [1/5/2021 1:20 PM (Tuesday)](https://twitter.com/ShardiB2/status/1346521942543761412)
+
+> Please tell me you got long $GS on this call... https://t.co/aZlvWCxtV5 https://t.co/z2C5uzbkCh
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Goldman Sachs | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $272.61 | $271.00 | -0.591%
+
+##### [1/5/2021 1:23 PM (Tuesday)](https://twitter.com/ShardiB2/status/1346522637372170240)
+
+> Favorite chart continued...   $PAAS  #silver
+
+> \ https://t.co/hQmQtNablO https://t.co/QYGNcZrJee
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Pan American Silver | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PAAS | NASDAQ | $38.09 | $38.25 | 0.407%
+
+##### [1/5/2021 1:24 PM (Tuesday)](https://twitter.com/ShardiB2/status/1346523044676837382)
+
+> $FCX
+
+> 
+
+> Really?  You still don't own it after all this time following me?? https://t.co/x4i1U3xTzR https://t.co/xsbYZpfZPQ
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Freeport-McMoRan | - | 0.0 :neutral_face: | hold | neutral sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+FCX | New York Stock Exchange | $27.99 | $28.60 | 0.000%
+
+##### [1/6/2021 12:18 PM (Wednesday)](https://twitter.com/ShardiB2/status/1346868655762640896)
+
+> $GS
+
+> 
+
+> Find me a better strike rate on such a high call count... I'm waiting... 😉
+
+> 
+
+> I LOVE this play.… https://t.co/BANf6NYMDV
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Goldman Sachs | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $285.14 | $286.20 | 0.371%
+
+##### [1/7/2021 12:31 PM (Thursday)](https://twitter.com/ShardiB2/status/1347234365819015170)
+
+> $SPWR
+
+> 
+
+> Rocket, but RSI just hitting 70..there may be room left in this tank!
+
+> 
+
+> My calls go out to 1/29.  Not selling… https://t.co/emi8eb5SGL
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPWR | NASDAQ | $32.23 | $31.50 | -2.250%
+BLK | New York Stock Exchange | $748.22 | $750.42 | 0.294%
+TOT | New York Stock Exchange | $45.85 | $46.21 | 0.788%
+
+##### [1/8/2021 8:59 AM (Friday)](https://twitter.com/ShardiB2/status/1347543454197424131)
+
+> 50% in a couple of weeks..  $BLDP https://t.co/2n6amSKAOY https://t.co/I5MocN4UjT
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Ballard Power Systems | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+BLDP | NASDAQ | $29.21 | $28.60 | -2.088%
+
+##### [1/11/2021 11:50 AM (Monday)](https://twitter.com/ShardiB2/status/1348673727228235777)
+
+> $GS continue to look amazing in price discovery.
+
+> 
+
+> This is why we diversify.  Leaps up over 100% and we have a full… https://t.co/AXocH91gFd
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Goldman Sachs | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $290.83 | $294.89 | 1.396%
+
+##### [1/12/2021 8:12 AM (Tuesday)](https://twitter.com/ShardiB2/status/1348981229094375429)
+
+> BOOOOOOOM
+
+> 
+
+> $PLUG
+
+> 
+
+> NO ONE GETS PAID LIKE @ShardiB2 AND HER FOLLOWERS!!!
+
+> 
+
+> Also $FCEL and $BLDP https://t.co/2zxKQRf3qQ https://t.co/7CEHIjOYHS
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Plug Power | - | 1.0 :thumbsup: | bull | positive sentiment
+Ballard Power Systems | - | 1.0 :thumbsup: | bull | positive sentiment
+FuelCell Energy | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PLUG | NASDAQ | $61.21 | $70.45 | 15.096%
+BLDP | NASDAQ | $30.45 | $36.31 | 19.245%
+FCEL | NASDAQ | $17.15 | $19.80 | 15.452%
+
+##### [1/12/2021 11:23 AM (Tuesday)](https://twitter.com/ShardiB2/status/1349029193246531585)
+
+> $GS IS MINTING. https://t.co/aZlvWCxtV5 https://t.co/oYsJkivGkG
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Goldman Sachs | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $302.63 | $302.10 | -0.175%
+
+##### [1/12/2021 12:57 PM (Tuesday)](https://twitter.com/ShardiB2/status/1349052922252976129)
+
+> $PLUG
+
+> 
+
+> Look back at this tweet from only a few months ago.. I was calling for $50, now $62.
+
+> 
+
+> $FCEL looks like this… https://t.co/SpRzTemVbm
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Plug Power | - | 1.0 :thumbsup: | bull | positive sentiment
+FuelCell Energy | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PLUG | NASDAQ | $61.80 | $70.45 | 13.997%
+FCEL | NASDAQ | $17.80 | $19.80 | 11.236%
+
+##### [1/14/2021 9:42 AM (Thursday)](https://twitter.com/ShardiB2/status/1349728641152819206)
+
+> Don't make me tell you again.  $SPWR https://t.co/pWFSg1ffmk https://t.co/Uf0U83jDTx
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPWR | NASDAQ | $33.17 | $35.61 | 7.356%
+BLK | New York Stock Exchange | $757.95 | $746.00 | -1.577%
+TOT | New York Stock Exchange | $45.56 | $45.94 | 0.834%
+
+##### [1/19/2021 10:03 AM (Tuesday)](https://twitter.com/ShardiB2/status/1351545710018240514)
+
+> #dontforget  $SPWR https://t.co/d1oCS4De2a https://t.co/FlDacQCSVB
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPWR | NASDAQ | $35.77 | $37.10 | 3.705%
+BLK | New York Stock Exchange | $732.94 | $737.00 | 0.554%
+TOT | New York Stock Exchange | $44.78 | $44.53 | -0.558%
+
+##### [1/20/2021 1:04 PM (Wednesday)](https://twitter.com/ShardiB2/status/1351953788081491971)
+
+> Did it again...up over 5% in less than an hour...  looking for $12+
+
+> 
+
+> $GEVO
+
+> 
+
+> LFG https://t.co/BMmyPBynWv https://t.co/m8LaXzAczQ
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Gevo, Inc | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GEVO | NASDAQ | $9.02 | $9.35 | 3.661%
+
+##### [1/20/2021 3:18 PM (Wednesday)](https://twitter.com/ShardiB2/status/1351987373756846081)
+
+> $F https://t.co/42cE0zODZg
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Ford Motor Company | - | 0.0 :neutral_face: | hold | neutral sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+F | New York Stock Exchange | $10.79 | $11.15 | 0.000%
+
+##### [1/21/2021 12:08 PM (Thursday)](https://twitter.com/ShardiB2/status/1352302081424633859)
+
+> Time to bring back this chart for you.
+
+> 
+
+> $SPWR https://t.co/j87CdhNQJU
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPWR | NASDAQ | $44.15 | $43.22 | -2.106%
+BLK | New York Stock Exchange | $742.72 | $742.00 | -0.097%
+TOT | New York Stock Exchange | $44.12 | $44.15 | 0.068%
+
+##### [1/21/2021 3:51 PM (Thursday)](https://twitter.com/ShardiB2/status/1352358185047363585)
+
+> Very cool overlay chart of $PLUG and $SPWR
+
+> 
+
+> Lots o Room... https://t.co/cw1QZuCPJc
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Plug Power | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+PLUG | NASDAQ | $64.09 | $62.88 | -1.888%
+SPWR | NASDAQ | $43.82 | $43.22 | -1.369%
+BLK | New York Stock Exchange | $744.39 | $742.00 | -0.321%
+TOT | New York Stock Exchange | $44.13 | $44.15 | 0.034%
+
+##### [1/22/2021 9:44 AM (Friday)](https://twitter.com/ShardiB2/status/1352628260002258948)
+
+> You forgot I am from the future.
+
+> 
+
+> $JMIA one day later.  ATH
+
+> 
+
+> BOOOOOOOM https://t.co/UYelQxmj6m https://t.co/RBgDG0EMUj
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Jumia | Goldman Sachs | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Millicom | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Orange | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $289.66 | $289.06 | -0.207%
+TIGO | NASDAQ | $39.80 | $39.96 | 0.402%
+ORAN | NASDAQ | $11.65 | $11.76 | 0.944%
+
+##### [1/22/2021 10:29 AM (Friday)](https://twitter.com/ShardiB2/status/1352639495544438785)
+
+> Those $AAPL LEAPS are starting to print and were a no brainer https://t.co/AHfh8hLBYs https://t.co/keAeS458pk
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Apple Inc. | - | 1.0 :thumbsup: | bull | positive sentiment
+Apple Inc. | Berkshire Hathaway | 1.0 :thumbsup: | bull | positive sentiment
+Apple Inc. | Berkshire Hathaway | 1.0 :thumbsup: | bull | positive sentiment
+Apple Inc. | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+AAPL | NASDAQ | $136.57 | $140.36 | 2.773%
+BRK.A | New York Stock Exchange | $349,642.51 | $350,810.00 | 0.334%
+BRK.B | New York Stock Exchange | $232.24 | $232.54 | 0.129%
+BLK | New York Stock Exchange | $731.81 | $735.05 | 0.443%
+
+##### [1/22/2021 12:21 PM (Friday)](https://twitter.com/ShardiB2/status/1352667715396370434)
+
+> As I was saying....can't make this any easier for you folks.
+
+> 
+
+> $SPWR https://t.co/VXjmPDywek https://t.co/zMUjguOkCU
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+SunPower | - | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | BlackRock | 1.0 :thumbsup: | bull | positive sentiment
+SunPower | Total SE | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPWR | NASDAQ | $44.12 | $47.65 | 7.997%
+BLK | New York Stock Exchange | $734.58 | $735.05 | 0.064%
+TOT | New York Stock Exchange | $44.20 | $44.44 | 0.543%
+
+##### [1/22/2021 2:52 PM (Friday)](https://twitter.com/ShardiB2/status/1352705597595136000)
+
+> $JMIA making me tons of jahmoney...
+
+> 
+
+> EZPZ. https://t.co/UYelQxmj6m https://t.co/h2AzvTwt5T
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Jumia | Goldman Sachs | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Millicom | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Orange | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $289.73 | $289.06 | -0.231%
+TIGO | NASDAQ | $40.16 | $39.96 | -0.498%
+ORAN | NASDAQ | $11.74 | $11.76 | 0.170%
+
+##### [1/26/2021 9:27 AM (Tuesday)](https://twitter.com/ShardiB2/status/1354073518649053188)
+
+> $SPCE opening above $37
+
+> 
+
+> This was a STEAL yesterday at $34.  Gave you the bottom! https://t.co/BxEytByrlL https://t.co/CJlvBqrVXd
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Virgin Galactic | - | 1.0 :thumbsup: | hold | blacklist
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPCE | New York Stock Exchange | $37.39 | $43.39 | 0.000%
+
+##### [1/26/2021 10:40 AM (Tuesday)](https://twitter.com/ShardiB2/status/1354091854892052480)
+
+> So damn EZ.  $JMIA https://t.co/iwd3ORegCd https://t.co/P68WrcUm5s
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Jumia | Goldman Sachs | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Millicom | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Orange | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $282.81 | $280.51 | -0.813%
+TIGO | NASDAQ | $38.04 | $37.57 | -1.236%
+ORAN | NASDAQ | $11.89 | $11.90 | 0.084%
+
+##### [1/26/2021 10:42 AM (Tuesday)](https://twitter.com/ShardiB2/status/1354092413208432640)
+
+> $SPCE at $40.40
+
+> 
+
+> If you added where I suggested yesterday you are up almost 20% and over $6 https://t.co/CHzIyBKQ9x
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Virgin Galactic | - | 1.0 :thumbsup: | hold | blacklist
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPCE | New York Stock Exchange | $40.66 | $43.39 | 0.000%
+
+##### [1/26/2021 12:32 PM (Tuesday)](https://twitter.com/ShardiB2/status/1354120053508231169)
+
+> Added over 100 $BLDP calls.  Now you know why https://t.co/d6w5UXUMkL https://t.co/PUwMqWqrlU
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Ballard Power Systems | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+BLDP | NASDAQ | $38.26 | $36.90 | -3.555%
+
+##### [1/27/2021 10:39 AM (Wednesday)](https://twitter.com/ShardiB2/status/1354454048460648449)
+
+> What was I saying about $SPCE?
+
+> 
+
+> Could have bought it at $40 today, now $48 https://t.co/oF2FPGonBI https://t.co/qdOjKyPVfp
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Virgin Galactic | - | 1.0 :thumbsup: | hold | blacklist
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPCE | New York Stock Exchange | $48.37 | $43.24 | 0.000%
+
+##### [1/27/2021 11:16 AM (Wednesday)](https://twitter.com/ShardiB2/status/1354463255998189570)
+
+> $JMIA
+
+> 
+
+> BOOOM. https://t.co/iwd3ORegCd https://t.co/4zzPfxlKNa
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Jumia | Goldman Sachs | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Millicom | 1.0 :thumbsup: | bull | positive sentiment
+Jumia | Orange | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+GS | New York Stock Exchange | $276.16 | $270.06 | -2.209%
+TIGO | NASDAQ | $37.40 | $37.06 | -0.909%
+ORAN | NASDAQ | $11.96 | $11.96 | 0.000%
+
+##### [1/27/2021 11:38 AM (Wednesday)](https://twitter.com/ShardiB2/status/1354468801077772291)
+
+> $SPCE
+
+> 
+
+> $34 to $56 in two days!!!
+
+> 
+
+> It's no $AMC but still... https://t.co/CHzIyBKQ9x
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Virgin Galactic | - | 1.0 :thumbsup: | hold | blacklist
+AMC Theatres | - | 1.0 :thumbsup: | hold | blacklist
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPCE | New York Stock Exchange | $56.28 | $43.24 | 0.000%
+AMC | New York Stock Exchange | $15.90 | $14.75 | 0.000%
+
+##### [1/29/2021 11:03 AM (Friday)](https://twitter.com/ShardiB2/status/1355184764324614148)
+
+> RT @bits_bits_bits: I already had calls, but now I've added equity. Don't bet against two of the greats @CryptoKaleo @ShardiB2 $BLDP https:…
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Ballard Power Systems | - | 1.0 :thumbsup: | bull | positive sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+BLDP | NASDAQ | $35.10 | $34.25 | -2.422%
+
+##### [2/1/2021 1:44 PM (Monday)](https://twitter.com/ShardiB2/status/1356312596735995904)
+
+> Thank god for $SPCE.
+
+> 
+
+> Looking ready for more... https://t.co/mZgutUnnQ2 https://t.co/2VCXlfo9il
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+Virgin Galactic | - | 1.0 :thumbsup: | hold | blacklist
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+SPCE | New York Stock Exchange | $52.25 | $58.89 | 0.000%
+
+##### [2/2/2021 1:05 PM (Tuesday)](https://twitter.com/ShardiB2/status/1356665109439995906)
+
+> Just two months ago $MSTR was $275....now $666
+
+> 
+
+> OMG.  All you had to do was buy the leaps... https://t.co/0ndyjf6tTu
+
+*Strategy*
+
+Company | Root | Sentiment | Strategy | Reason
+--------|------|-----------|----------|-------
+MicroStrategy | - | 0.0 :neutral_face: | hold | neutral sentiment
+MicroStrategy | BlackRock | 0.0 :neutral_face: | hold | neutral sentiment
+MicroStrategy | Invesco | 0.0 :neutral_face: | hold | neutral sentiment
+
+*Performance*
+
+Ticker | Exchange | Price @ tweet | Price @ close | Gain
+-------|----------|---------------|---------------|-----
+MSTR | NASDAQ | $663.58 | $692.00 | 0.000%
+BLK | New York Stock Exchange | $732.00 | $731.88 | 0.000%
+IVZ | New York Stock Exchange | $21.62 | $21.60 | 0.000%
+
+### Fund simulation
+
+This is how an initial investment of $100,000.00 would have grown, including fees of 2 × $0.00 per pair of orders. Bold means that the data was used to trade.
+
+Time | Trade | Gain | Value | Return | Annualized
+-----|-------|------|-------|--------|-----------
+*Initial* | - | - | *$100,000.00* | - | -
+**12/28/2020 2:27 PM** | **DIS :thumbsup:** | 0.757% | $100,186.30 | 0.186% | 0.000%
+**12/28/2020 2:27 PM** | **BLK :thumbsup:** | -0.053% | $100,173.38 | 0.173% | 0.000%
+**12/28/2020 2:27 PM** | **NTRS :thumbsup:** | -0.216% | $100,119.98 | 0.120% | 0.000%
+**12/28/2020 2:27 PM** | **TROW :thumbsup:** | -0.145% | $100,084.29 | 0.084% | 0.000%
+12/28/2020 2:54 PM | PLUG :thumbsup: | -1.289% | $100,084.29 | 0.084% | 0.000%
+**12/30/2020 2:02 PM** | **PLUG :thumbsup:** | 2.143% | $102,207.86 | 2.208% | 5281.259%
+**1/5/2021 1:20 PM** | **GS :thumbsup:** | -0.591% | $101,610.55 | 1.611% | 107.292%
+1/5/2021 1:23 PM | PAAS :thumbsup: | 0.407% | $101,610.55 | 1.611% | 107.292%
+1/5/2021 1:24 PM | FCX :neutral_face: | 0.000% | $101,610.55 | 1.611% | 107.292%
+**1/6/2021 12:18 PM** | **GS :thumbsup:** | 0.371% | $101,982.97 | 1.983% | 121.740%
+**1/7/2021 12:31 PM** | **SPWR :thumbsup:** | -2.250% | $101,226.07 | 1.226% | 56.017%
+**1/7/2021 12:31 PM** | **BLK :thumbsup:** | 0.294% | $101,322.87 | 1.323% | 61.556%
+**1/7/2021 12:31 PM** | **TOT :thumbsup:** | 0.788% | $101,587.91 | 1.588% | 77.719%
+**1/8/2021 8:59 AM** | **BLDP :thumbsup:** | -2.088% | $99,487.68 | -0.512% | -17.095%
+**1/11/2021 11:50 AM** | **GS :thumbsup:** | 1.396% | $100,859.96 | 0.860% | 25.013%
+**1/12/2021 8:12 AM** | **PLUG :thumbsup:** | 15.096% | $105,877.34 | 5.877% | 343.251%
+**1/12/2021 8:12 AM** | **BLDP :thumbsup:** | 19.245% | $112,282.32 | 12.282% | 1949.695%
+**1/12/2021 8:12 AM** | **FCEL :thumbsup:** | 15.452% | $117,423.32 | 17.423% | 6485.602%
+1/12/2021 11:23 AM | GS :thumbsup: | -0.175% | $117,423.32 | 17.423% | 4881.450%
+1/12/2021 12:57 PM | PLUG :thumbsup: | 13.997% | $117,423.32 | 17.423% | 4881.450%
+1/12/2021 12:57 PM | FCEL :thumbsup: | 11.236% | $117,423.32 | 17.423% | 4881.450%
+**1/14/2021 9:42 AM** | **SPWR :thumbsup:** | 7.356% | $120,275.68 | 20.276% | 5165.805%
+**1/14/2021 9:42 AM** | **BLK :thumbsup:** | -1.577% | $119,666.23 | 19.666% | 4621.675%
+**1/14/2021 9:42 AM** | **TOT :thumbsup:** | 0.834% | $119,989.61 | 19.990% | 4903.344%
+**1/19/2021 10:03 AM** | **SPWR :thumbsup:** | 3.705% | $121,458.26 | 21.458% | 2416.064%
+**1/19/2021 10:03 AM** | **BLK :thumbsup:** | 0.554% | $121,677.50 | 21.678% | 2492.484%
+**1/19/2021 10:03 AM** | **TOT :thumbsup:** | -0.558% | $121,456.25 | 21.456% | 2415.373%
+**1/20/2021 1:04 PM** | **GEVO :thumbsup:** | 3.661% | $125,865.74 | 25.866% | 3750.253%
+1/20/2021 3:18 PM | F :neutral_face: | 0.000% | $125,865.74 | 25.866% | 3750.253%
+**1/21/2021 12:08 PM** | **SPWR :thumbsup:** | -2.106% | $124,990.06 | 24.990% | 2873.819%
+**1/21/2021 12:08 PM** | **BLK :thumbsup:** | -0.097% | $124,949.74 | 24.950% | 2859.263%
+**1/21/2021 12:08 PM** | **TOT :thumbsup:** | 0.068% | $124,978.03 | 24.978% | 2869.469%
+1/21/2021 3:51 PM | PLUG :thumbsup: | -1.888% | $124,978.03 | 24.978% | 2869.469%
+1/21/2021 3:51 PM | SPWR :thumbsup: | -1.369% | $124,978.03 | 24.978% | 2869.469%
+1/21/2021 3:51 PM | BLK :thumbsup: | -0.321% | $124,978.03 | 24.978% | 2869.469%
+1/21/2021 3:51 PM | TOT :thumbsup: | 0.034% | $124,978.03 | 24.978% | 2869.469%
+**1/22/2021 9:44 AM** | **GS :thumbsup:** | -0.207% | $124,892.83 | 24.893% | 2467.128%
+**1/22/2021 9:44 AM** | **TIGO :thumbsup:** | 0.402% | $125,058.91 | 25.059% | 2517.422%
+**1/22/2021 9:44 AM** | **ORAN :thumbsup:** | 0.944% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 10:29 AM | AAPL :thumbsup: | 2.773% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 10:29 AM | BRK.A :thumbsup: | 0.334% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 10:29 AM | BRK.B :thumbsup: | 0.129% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 10:29 AM | BLK :thumbsup: | 0.443% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 12:21 PM | SPWR :thumbsup: | 7.997% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 12:21 PM | BLK :thumbsup: | 0.064% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 12:21 PM | TOT :thumbsup: | 0.543% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 2:52 PM | GS :thumbsup: | -0.231% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 2:52 PM | TIGO :thumbsup: | -0.498% | $125,449.08 | 25.449% | 2639.209%
+1/22/2021 2:52 PM | ORAN :thumbsup: | 0.170% | $125,449.08 | 25.449% | 2639.209%
+1/26/2021 9:27 AM | SPCE :thumbsup: | 0.000% | $125,449.08 | 25.449% | 1635.130%
+**1/26/2021 10:40 AM** | **GS :thumbsup:** | -0.813% | $125,113.28 | 25.113% | 1577.571%
+**1/26/2021 10:40 AM** | **TIGO :thumbsup:** | -1.236% | $124,600.98 | 24.601% | 1493.136%
+**1/26/2021 10:40 AM** | **ORAN :thumbsup:** | 0.084% | $124,635.86 | 24.636% | 1498.758%
+1/26/2021 10:42 AM | SPCE :thumbsup: | 0.000% | $124,635.86 | 24.636% | 1498.758%
+1/26/2021 12:32 PM | BLDP :thumbsup: | -3.555% | $124,635.86 | 24.636% | 1498.758%
+1/27/2021 10:39 AM | SPCE :thumbsup: | 0.000% | $124,635.86 | 24.636% | 1357.661%
+**1/27/2021 11:16 AM** | **GS :thumbsup:** | -2.209% | $123,726.96 | 23.727% | 1233.469%
+**1/27/2021 11:16 AM** | **TIGO :thumbsup:** | -0.909% | $123,352.62 | 23.353% | 1185.204%
+**1/27/2021 11:16 AM** | **ORAN :thumbsup:** | 0.000% | $123,352.62 | 23.353% | 1185.204%
+1/27/2021 11:38 AM | SPCE :thumbsup: | 0.000% | $123,352.62 | 23.353% | 1185.204%
+1/27/2021 11:38 AM | AMC :thumbsup: | 0.000% | $123,352.62 | 23.353% | 1185.204%
+**1/29/2021 11:03 AM** | **BLDP :thumbsup:** | -2.422% | $120,390.37 | 20.390% | 730.328%
+2/1/2021 1:44 PM | SPCE :thumbsup: | 0.000% | $120,390.37 | 20.390% | 592.559%
+2/2/2021 1:05 PM | MSTR :neutral_face: | 0.000% | $120,390.37 | 20.390% | 556.313%
+2/2/2021 1:05 PM | BLK :neutral_face: | 0.000% | $120,390.37 | 20.390% | 556.313%
+2/2/2021 1:05 PM | IVZ :neutral_face: | 0.000% | $120,390.37 | 20.390% | 556.313%

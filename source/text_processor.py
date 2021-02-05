@@ -1,7 +1,7 @@
 import requests
 import json
 import re
-import assets.crypto_dict
+from assets.crypto_dict import crypto_dict
 
 class TextProcessor:
     """
@@ -12,6 +12,7 @@ class TextProcessor:
         ## assert len(text) > 0
         if not text:
             return ""
+
         tickers = self.find_tickers(text)
 
         ticker_company_name_dict = self.convert_tickers_to_company_names(tickers)
@@ -19,7 +20,9 @@ class TextProcessor:
         for ticker in tickers:
             text = text.replace(ticker, ticker_company_name_dict[ticker])
 
-        return text
+        # text = text.replace("\r","")
+        # text = text.replace("\n","")
+        return text, ticker_company_name_dict
 
     """
     Parses input text and returns a set of potential ticker strings
@@ -34,7 +37,7 @@ class TextProcessor:
         return tickers
 
     def __is_ticker(self, ticker):
-        return 1 < len(ticker) <= 5 and ticker[0] == '$' and ticker[1:].isalpha()
+        return 1 < len(ticker) <= 6 and ticker[0] == '$' and ticker[1:].isalpha()
 
     ## making these private functions -> leads to errors with pytest
     def __split_text(self,text):
@@ -79,8 +82,8 @@ class TextProcessor:
         ## have parent function handle the error
 
         for company in companies:
-            if ticker_alpha in crypto_dict.crypto_dict:
-                return crypto_dict.crypto_dict[ticker_alpha]
+            if ticker_alpha in crypto_dict:
+                return crypto_dict[ticker_alpha]
             elif company['symbol'] ==  ticker_alpha: #can different companies have the same tickers on different exchanges
                 return company["name"]
 

@@ -13,12 +13,15 @@ from twitter import TWITTER_CONSUMER_KEY
 from twitter import TWITTER_CONSUMER_SECRET
 from twitter import TWITTER_ACCESS_TOKEN
 from twitter import TWITTER_ACCESS_TOKEN_SECRET
+from analysis import Analysis
 
 
 @fixture
 def twitter():
     return Twitter(logs_to_cloud=False)
 
+def analysis():
+    return Analysis()
 
 def test_environment_variables():
     assert TWITTER_CONSUMER_KEY
@@ -40,6 +43,8 @@ def test_streaming(twitter):
     Timer(2, twitter.stop_streaming).start()
     twitter.start_streaming(callback)
 
+def test_post_tweet(twitter,analysis):
+    assert twitter.test_tweet()
 
 def test_make_tweet_text(twitter):
     assert twitter.make_tweet_text([{
