@@ -42,17 +42,23 @@ POLYGON_API_KEY = getenv("POLYGON_API_KEY")
 # The XML namespace for FIXML requests.
 FIXML_NAMESPACE = "http://www.fixprotocol.org/FIXML-5-0-SP2"
 
+# Defines the number of trades that can be executed since each day the total budget will be used
+NUM_TRADES_PER_DAY = 5
+
+# Max cost of each trade
+MAX_POSITION = 30
+
 # The HTTP headers for FIXML requests.
 FIXML_HEADERS = {"Content-Type": "text/xml"}
 
 # how long to hold the stock for: #CURRENTLY SELLS AT EOD
-SELL_AFTER_MIN = 90
+SELL_AFTER_MIN = 90 #THIS DOES NOT CURRENTLY SELL AFTER 90 MIN, ONLY WORKS FOR BENCHMARKING
 
 # The amount of cash in dollars to hold from being spent.
-CASH_HOLD = 1000
+CASH_HOLD = 100
 
 # The fraction of the stock price at which to set order limits.
-LIMIT_FRACTION = 0.1
+LIMIT_FRACTION = 0.03
 
 # The delay in seconds for the second leg of a trade.
 ORDER_DELAY_S = 30 * 60
@@ -175,7 +181,7 @@ class Trading:
         if num_strategies <= 0:
             self.logs.warn("No budget without strategies.")
             return 0.0
-        return round(max(0.0, balance - CASH_HOLD) / num_strategies, 2)
+        return round(min(MAX_POSITION, max(0.0, balance - CASH_HOLD) / num_strategies / NUM_TRADES_PER_DAY), 2)
 
     def get_market_status(self):
         """Finds out whether the markets are open right now."""
@@ -433,6 +439,8 @@ class Trading:
         return tostring(xml, encoding="utf-8").decode("utf-8")
 
     def fixml_buy_now(self, ticker, quantity, limit):
+        self.logs.info(f'Making a trade: Buying {quantity} units of {ticker} at limit price of {limit}')
+
         """Generates the FIXML for a buy order."""
 
         fixml = Element("FIXML")
@@ -453,6 +461,8 @@ class Trading:
 
     def fixml_sell_eod(self, ticker, quantity, limit):
         """Generates the FIXML for a sell order."""
+        self.logs.info(f'Placing EoD order: Selling {quantity} units of {ticker} at limit price of {limit}')
+
 
         fixml = Element("FIXML")
         fixml.set("xmlns", FIXML_NAMESPACE)
@@ -667,7 +677,6 @@ class Trading:
 
     def make_order_request(self, fixml):
         """Executes an order defined by FIXML and verifies the response."""
-
         response = self.make_request(url=self.get_order_url(), method="POST",
                                      body=fixml, headers=FIXML_HEADERS)
 

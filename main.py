@@ -4,6 +4,7 @@ from http.server import HTTPServer
 from threading import Event
 from threading import Thread
 from time import sleep
+import backoff
 
 from source.analysis import Analysis
 from source.logs import Logs
@@ -29,7 +30,7 @@ BACKOFF_RESET_S = 30 * 60
 MONITOR_HOST = "0.0.0.0"
 
 # The port for the monitor Web server.
-MONITOR_PORT = 80
+MONITOR_PORT = 8080
 
 # The message returned by the monitor Web server.
 MONITOR_MESSAGE = "OK"
@@ -79,6 +80,8 @@ class Main:
     def __init__(self):
         self.logs = Logs(name="main", to_cloud=LOGS_TO_CLOUD)
         self.twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
+        self.logs.info("I'm running")
+        self.twitter.test_tweet()
 
     def twitter_callback(self, tweet):
         """Analyzes  tweets, trades stocks, and tweets about it."""
@@ -159,6 +162,7 @@ class Main:
 
 
 if __name__ == "__main__":
+    print("Starting up")
     monitor = Monitor()
     monitor.start()
     try:

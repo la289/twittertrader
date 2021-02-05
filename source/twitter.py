@@ -10,6 +10,7 @@ from tweepy import Cursor
 from tweepy import OAuthHandler
 from tweepy import Stream
 from tweepy.streaming import StreamListener
+from random import randint
 
 from source.logs import Logs
 
@@ -102,6 +103,11 @@ class Twitter:
         self.logs.debug("Stopping stream.")
         self.twitter_listener.stop_queue()
         self.twitter_listener = None
+
+    def test_tweet(self):
+        x = randint(1,100)
+        self.twitter_api.update_status(f'Beep {x} Beep')
+        return 9
 
     def tweet(self, companies, tweet):
         """Posts a tweet listing the companies, their ticker symbols, and a
