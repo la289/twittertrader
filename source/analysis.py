@@ -321,7 +321,7 @@ class Analysis:
         sentiment = self.language_client.analyze_sentiment(
             document).document_sentiment
 
-        sentiment_score = sentiment.score + sentiment_skew
+        sentiment_score = sentiment.score + self.sentiment_skew
         self.logs.debug(
             "Sentiment score and magnitude for text: %f %f \"%s\"" %
             (sentiment_score, sentiment.magnitude, text))
