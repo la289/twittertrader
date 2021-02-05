@@ -55,7 +55,7 @@ FIXML_HEADERS = {"Content-Type": "text/xml"}
 SELL_AFTER_MIN = 90 #THIS DOES NOT CURRENTLY SELL AFTER 90 MIN, ONLY WORKS FOR BENCHMARKING
 
 # The amount of cash in dollars to hold from being spent.
-CASH_HOLD = 100
+CASH_HOLD = 25000
 
 # The fraction of the stock price at which to set order limits.
 LIMIT_FRACTION = 0.03
@@ -144,7 +144,8 @@ class Trading:
             strategy["root"] = company["root"]
         strategy["sentiment"] = company["sentiment"]
         strategy["ticker"] = ticker
-        strategy["exchange"] = company["exchange"]
+        if "exchange" in company:
+            strategy["exchange"] = company["exchange"]
 
         # Don't do anything with blacklisted stocks.
         if ticker in TICKER_BLACKLIST:
@@ -543,7 +544,7 @@ class Trading:
         try:
             balances = response["response"]
             money = balances["accountbalance"]["money"]
-            cash_str = money["cash"]
+            cash_str = money["cashavailable"]
             uncleareddeposits_str = money["uncleareddeposits"]
         except KeyError:
             self.logs.error("Malformed balances response: %s" % response)

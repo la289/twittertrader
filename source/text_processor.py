@@ -22,7 +22,7 @@ class TextProcessor:
 
         # text = text.replace("\r","")
         # text = text.replace("\n","")
-        return text
+        return text, ticker_company_name_dict
 
     """
     Parses input text and returns a set of potential ticker strings
@@ -37,7 +37,7 @@ class TextProcessor:
         return tickers
 
     def __is_ticker(self, ticker):
-        return 1 < len(ticker) <= 5 and ticker[0] == '$' and ticker[1:].isalpha()
+        return 1 < len(ticker) <= 6 and ticker[0] == '$' and ticker[1:].isalpha()
 
     ## making these private functions -> leads to errors with pytest
     def __split_text(self,text):

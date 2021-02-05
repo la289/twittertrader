@@ -141,7 +141,7 @@ class Analysis:
             return None
 
         text_pro = TextProcessor()
-        text = text_pro.replace_tickers_with_company_names(raw_text)
+        text,ticker_company_name_dict = text_pro.replace_tickers_with_company_names(raw_text)
 
         # Obtain a sentiment score for the tweet (and all companies mentioned).
         sentiment = self.get_sentiment(text)
@@ -157,7 +157,7 @@ class Analysis:
 
         # Collect all entities which are publicly traded companies, i.e.
         # entities which have a known stock ticker symbol.
-        companies = []
+        companies = self.tickers_to_companies(ticker_company_name_dict,sentiment)
         for entity in entities:
 
             # Use the Freebase ID of the entity to find company data. Skip any
@@ -197,6 +197,24 @@ class Analysis:
                         "Skipping company with duplicate ticker: %s" % company)
 
         return companies
+
+    def tickers_to_companies(self,ticker_company_name_dict,sentiment):
+        if not ticker_company_name_dict:
+            self.logs.debug("No tickers foudn in tweet")
+            return []
+
+        companies = []
+        for ticker in ticker_company_name_dict:
+            company={
+                'ticker': ticker,
+                'name': ticker_company_name_dict[ticker],
+                'sentiment': sentiment}
+
+            companies.append(company)
+
+        return companies
+
+
 
     def get_expanded_text(self, tweet):
         """Retrieves the text from a tweet with any @mentions expanded to
