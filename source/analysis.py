@@ -10,6 +10,7 @@ from source.text_processor import TextProcessor
 from monkeylearn import MonkeyLearn
 from source.logs import Logs
 from source.twitter import Twitter
+from assets.crypto_dict import crypto_dict
 
 from os import getenv
 from dotenv import load_dotenv
@@ -206,12 +207,14 @@ class Analysis:
 
         companies = []
         for ticker in ticker_company_name_dict:
-            company={
-                'ticker': ticker,
-                'name': ticker_company_name_dict[ticker],
-                'sentiment': sentiment}
+            if ticker not crypto_dict:
+                company={
+                    'ticker': ticker,
+                    'name': ticker_company_name_dict[ticker],
+                    'sentiment': sentiment
+                    }
 
-            companies.append(company)
+                companies.append(company)
 
         return companies
 
