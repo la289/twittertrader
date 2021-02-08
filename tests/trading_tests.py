@@ -19,6 +19,8 @@ from trading import TRADEKING_ACCOUNT_NUMBER
 from trading import USE_REAL_MONEY
 from twitter import TWITTER_ACCESS_TOKEN
 
+USE_REAL_MONEY = False
+
 @fixture
 def trading():
     return Trading(logs_to_cloud=False)
@@ -151,7 +153,7 @@ def test_get_strategy_sentiment(trading):
 
 
 def test_get_budget(trading):
-    assert trading.get_budget(11000.0, 1) == 10000.0
+    assert trading.get_budget(25250.0, 1) == 30
     assert trading.get_budget(11000.0, 2) == 5000.0
     assert trading.get_budget(11000.0, 3) == 3333.33
     assert trading.get_budget(11000.0, 0) == 0.0
@@ -234,7 +236,7 @@ def test_get_sell_limit(trading):
 
 
 def test_get_balance(trading):
-    assert trading.get_balance() >= 0.0
+    assert trading.get_balance() > 0.0
 
 
 def test_get_last_price(trading):

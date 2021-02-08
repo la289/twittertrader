@@ -22,13 +22,13 @@ load_dotenv()
 
 
 # Read the authentication keys for TradeKing from environment variables.
-TRADEKING_CONSUMER_KEY = getenv("TRADEKING_CONSUMER_KEY")
-TRADEKING_CONSUMER_SECRET = getenv("TRADEKING_CONSUMER_SECRET")
-TRADEKING_ACCESS_TOKEN = getenv("TRADEKING_ACCESS_TOKEN")
-TRADEKING_ACCESS_TOKEN_SECRET = getenv("TRADEKING_ACCESS_TOKEN_SECRET")
+TRADEKING_CONSUMER_KEY = getenv("ALLY_CONSUMER_KEY")
+TRADEKING_CONSUMER_SECRET = getenv("ALLY_CONSUMER_SECRET")
+TRADEKING_ACCESS_TOKEN = getenv("ALLY_OAUTH_TOKEN")
+TRADEKING_ACCESS_TOKEN_SECRET = getenv("ALLY_OAUTH_SECRET")
 
 # Read the TradeKing account number from the environment variable.
-TRADEKING_ACCOUNT_NUMBER = getenv("TRADEKING_ACCOUNT_NUMBER")
+TRADEKING_ACCOUNT_NUMBER = getenv("ALLY_ACCOUNT_NBR")
 
 # Only allow actual trades when the environment variable confirms it.
 USE_REAL_MONEY = getenv("USE_REAL_MONEY") == "YES"
@@ -64,7 +64,7 @@ LIMIT_FRACTION = 0.03
 ORDER_DELAY_S = 30 * 60
 
 # Blacklsited stock ticker symbols, e.g. to avoid insider trading.
-TICKER_BLACKLIST = ["GOOG", "GOOGL","GME","SPCE","AMC","GME"]
+TICKER_BLACKLIST = ["GOOG", "GOOGL","GME","SPCE","AMC","GME","ETH","BTC"]
 
 # We're using NYSE and NASDAQ, which are both in the easters timezone.
 MARKET_TIMEZONE = timezone("US/Eastern")

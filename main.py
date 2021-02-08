@@ -8,7 +8,7 @@ import backoff
 
 from source.analysis import Analysis
 from source.logs import Logs
-from source.trading import Trading
+from source.trading_alpaca import Trading
 from source.twitter import Twitter
 
 # Whether to send all logs to the cloud instead of a local file.
