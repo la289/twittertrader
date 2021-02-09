@@ -178,8 +178,8 @@ class Trading:
 
         # Buy the stock now.
         buy_limit = self.get_buy_limit(price)
-        status, order_id = self.alpaca.submit_market_buy(ticker, quantity, buy_limit)
-        if status not in self.alpaca.positive_statuses:
+        buy_status, buy_order_id = self.alpaca.submit_market_buy(ticker, quantity, buy_limit)
+        if buy_status not in self.alpaca.positive_statuses:
             return False
 
         # TODO: Do this properly by checking the order status API and using
@@ -187,20 +187,20 @@ class Trading:
         #wait for stock order to be filled
         timeout = time.time() + 60*10
         check_interval = 15
-        while self.alpaca.get_order_status(order_id) != filled and time.time() > timeout:
-            time.sleep(check_interval) #order not filled or 30 minutes
+        while self.alpaca.get_order_status(buy_order_id) != 'filled' and time.time() > timeout:
+            time.sleep(check_interval) #order not filled for 10 minutes
             check_interval *= 1.1
 
-        if self.alpaca.get_order_status != 'filled':
+        if self.alpaca.get_order_status(buy_order_id) != 'filled':
             self.logs.warn(f'Not able to fill buy for {ticker}. Cancelling order')
-            self.alpaca.cancel_order(order_id)
+            self.alpaca.cancel_order(buy_order_id)
             return False
 
-
+        self.logs.warn(f'Trying to place trailing stop sell order for {ticker}')
         #Create trailing_stop_order
-        order_status, _ = self.alpaca.submit_trailing_stop(symbol, qty, self.trail_percent)
-        if order_status != False:
-            self.logs.error(f'Not able to place trailing_stop sell order for {symbol}')
+        sell_order_status, sell_order_id = self.alpaca.submit_trailing_stop(ticker, quantity, self.trail_percent)
+        if sell_order_status == False:
+            self.logs.error(f'Not able to place trailing_stop sell order for {ticker}. Order status: {sell_order_status} | Order ID: {sell_order_id}')
 
         return True
 

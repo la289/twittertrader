@@ -50,6 +50,7 @@ class AlpacaConnector():
 
     def get_last_price(self,ticker):
         try:
+            ticker.replace('$','')
             quote = self.polygon.last_quote(ticker)
             self.logs.debug(f'Quote for {ticker}: {quote.bidprice}')
             return quote.bidprice
@@ -83,6 +84,7 @@ class AlpacaConnector():
                 time_in_force = 'gtc',
                 trail_percent=trail_percent
                 )
+            self.logs.info('Trailing stop order status: response.status. Order ID: response.id')
             return (response.status, response.id)
         except:
             self.logs.warn(f'Not able to place trailing_stop sell order for {symbol}')

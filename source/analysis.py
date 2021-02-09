@@ -206,9 +206,9 @@ class Analysis:
 
         companies = []
         for ticker in ticker_company_name_dict:
-            if ticker not crypto_dict:
+            if ticker not in crypto_dict:
                 company={
-                    'ticker': ticker,
+                    'ticker': ticker.replace('$',''),
                     'name': ticker_company_name_dict[ticker],
                     'sentiment': sentiment
                     }
