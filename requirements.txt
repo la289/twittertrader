@@ -14,3 +14,4 @@ tweepy==3.8.0
 python-dotenv==0.15.0
 monkeylearn==3.5.2
 alpaca_trade_api==0.52.0
+cbpro==1.1.4

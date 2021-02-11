@@ -8,7 +8,7 @@ import backoff
 
 from source.analysis import Analysis
 from source.logs import Logs
-from source.trading_alpaca import Trading
+from source.trading_alpaca_crypto import Trading
 from source.twitter import Twitter
 
 # Whether to send all logs to the cloud instead of a local file.
@@ -20,7 +20,7 @@ BACKOFF_STEP_S = 0.1
 # The maximum number of retry steps, equivalent to 0.1 * (2^12 - 1) = 409.5
 # seconds of total delay. This is the largest interval that one backoff
 # sequence may take.
-MAX_TRIES = 12
+MAX_TRIES = 100
 
 # The time in seconds after which to reset a backoff sequence. This is the
 # smallest interval at which backoff sequences may repeat normally.
