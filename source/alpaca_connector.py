@@ -41,8 +41,8 @@ class AlpacaConnector():
 
     def get_balance(self):
         account = self.API.get_account()
-        if hasattr(account, 'buying_power'):
-            return float(account.buying_power)
+        if hasattr(account, 'cash'):
+            return float(account.cash)
 
         self.logs.warn(f'Not able to get account balance')
         return 0

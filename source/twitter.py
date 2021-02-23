@@ -28,7 +28,7 @@ TWITTER_CONSUMER_KEY = getenv("TWITTER_CONSUMER_KEY")
 TWITTER_CONSUMER_SECRET = getenv("TWITTER_CONSUMER_SECRET")
 
 # The user ID of influencer.
-INFLUENCER_USER_ID = getenv("INFLUENCER_TWITTER_ID")
+INFLUENCER_USER_IDS = list(getenv("INFLUENCER_TWITTER_IDS").split())
 
 # The twitter user ID of bot user.
 BOT_USER_ID = getenv("BOT_USER_ID")
@@ -86,7 +86,7 @@ class Twitter:
         twitter_stream = Stream(self.twitter_auth, self.twitter_listener)
 
         self.logs.debug("Starting stream.")
-        twitter_stream.filter(follow=[INFLUENCER_USER_ID])
+        twitter_stream.filter(follow=INFLUENCER_USER_IDS)
 
         # If we got here because of an API error, raise it.
         if self.twitter_listener and self.twitter_listener.get_error_status():
@@ -192,29 +192,29 @@ class Twitter:
         # Use the raw JSON, just like the streaming API.
         return status._json
 
-    def get_all_tweets(self):
-        """Looks up metadata for the most recent Influencer tweets."""
+    # def get_all_tweets(self):
+    #     """Looks up metadata for the most recent Influencer tweets."""
 
-        tweets = []
+    #     tweets = []
 
-        # Only the 3,200 most recent tweets are available through the API.
-        for status in Cursor(self.twitter_api.user_timeline,
-                             user_id=INFLUENCER_USER_ID,
-                             exclude_replies=True).items():
-            # Extract the quoted influencer tweet, if available.
-            try:
-                quoted_tweet_id = status.quoted_status_id
-            except AttributeError:
-                self.logs.warn('Skipping tweet: %s' % status)
-                continue
+    #     # Only the 3,200 most recent tweets are available through the API.
+    #     for status in Cursor(self.twitter_api.user_timeline,
+    #                          user_id=INFLUENCER_USER_ID,
+    #                          exclude_replies=True).items():
+    #         # Extract the quoted influencer tweet, if available.
+    #         try:
+    #             quoted_tweet_id = status.quoted_status_id
+    #         except AttributeError:
+    #             self.logs.warn('Skipping tweet: %s' % status)
+    #             continue
 
-            # Get the tweet details and add it to the list.
-            quoted_tweet = status._json #self.get_tweet(quoted_tweet_id)
-            tweets.append(quoted_tweet)
+    #         # Get the tweet details and add it to the list.
+    #         quoted_tweet = status._json #self.get_tweet(quoted_tweet_id)
+    #         tweets.append(quoted_tweet)
 
-        self.logs.debug("Got tweets: %s" % tweets)
+    #     self.logs.debug("Got tweets: %s" % tweets)
 
-        return tweets
+    #     return tweets
 
     def get_tweet_text(self, tweet):
         """Returns the full text of a tweet."""
@@ -369,9 +369,10 @@ class TwitterListener(StreamListener):
 
         # We're only interested in tweets from the influencer him/herself, so skip the
         # rest.
-        if user_id_str != INFLUENCER_USER_ID:
-            logs.debug("Skipping tweet from user: %s (%s)" %
-                       (screen_name, user_id_str))
+        if user_id_str not in INFLUENCER_USER_IDS:
+            # logs.debug("Skipping tweet from user: %s (%s)" %
+                    #    (screen_name, user_id_str))
+            logs.debug(f'Skipping tweet from user: {screen_name}. The {user_id_str} is not in {INFLUENCER_USER_IDS}')
             return
 
         logs.info("Examining tweet: %s" % tweet)

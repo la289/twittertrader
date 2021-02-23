@@ -1,4 +1,4 @@
-from logs import Logs
+from source.logs import Logs
 from decimal import Decimal
 import cbpro
 import time
@@ -17,7 +17,7 @@ class CryptoTrader():
             key = getenv('CB_PROD_KEY')
             b64secret = getenv('CB_PROD_B64SECRET')
             passphrase = getenv('CB_PROD_PASSPHRASE')
-            self.coinbase = cbpro.AuthenticatedClient()
+            self.coinbase = cbpro.AuthenticatedClient(key, b64secret, passphrase)
         else:
             key = getenv('CB_SANDBOX_KEY')
             b64secret = getenv('CB_SANDBOX_B64SECRET')
@@ -28,7 +28,7 @@ class CryptoTrader():
 
     def get_balance(self, currency):
         accounts = self.coinbase.get_accounts()
-
+        print(accounts)
         for account in accounts:
             if account['currency'] == currency:
                 return float(account['balance'])
@@ -80,13 +80,15 @@ class CryptoTrader():
         else:
             return False
 
-    def trailing_stop_order(self, currency, size, trail_percent):
+    def trailing_stop_order(self, currency, size, trail_percent,min_sell_price=0):
         wsClient = self.cb_stream(products=[f'{currency}-USD'], channels = ['ticker'])
         wsClient.start()
         self.logs.warn(f'Stream opened for {currency}')
         # print('size',size)
         # print('streaming')
-        while wsClient.highest_price*(1-trail_percent/100) <= wsClient.last_price and wsClient.streaming:
+        while ((wsClient.highest_price*(1-trail_percent/100) <= wsClient.last_price) or
+               (wsClient.last_price <= min_sell_price) and
+               wsClient.streaming):
             time.sleep(0.5)
             # print(wsClient.last_price, wsClient.highest_price)
             #TODO: Need some sort of error monitoring in case stream gets disconnected

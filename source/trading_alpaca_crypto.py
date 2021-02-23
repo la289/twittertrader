@@ -12,7 +12,7 @@ load_dotenv()
 
 
 # Blacklsited stock ticker symbols, e.g. to avoid insider trading.
-TICKER_BLACKLIST = ["GOOG", "GOOGL","GME","SPCE","AMC","GME","ETH","BTC"]
+TICKER_BLACKLIST = ["GOOG", "GOOGL","GME","SPCE","AMC","GME","ETH","BTC","DOGE"]
 
 
 class Trading:
@@ -33,12 +33,12 @@ class Trading:
 
     def make_trades(self, companies):
         """Executes trades for the specified companies based on sentiment."""
-
+        self.logs.info(f'Trading received this company list: {companies}')
         # Determine whether the markets are open.
         is_market_open = self.alpaca.get_market_status()
-        if not is_market_open:
-            self.logs.error("Not trading while market is closed")
-            return False
+        # if not is_market_open:
+        #     self.logs.error("Not trading while market is closed")
+        #     return False
 
         # Filter for any strategies resulting in trades.
         actionable_strategies = []
@@ -60,8 +60,13 @@ class Trading:
                 crypto_strategies.append(strategy)
             else:
                 stock_strategies.append(strategy)
+        self.logs.info(f'Passing on crypto strategies: {crypto_strategies} and stock strategies {stock_strategies} from combined strategies {actionable_strategies}')
 
-        return self.execute_stock_strategies(stock_strategies) and self.execute_crypto_strategies(crypto_strategies)
+
+        stock_execution = self.execute_stock_strategies(stock_strategies)
+        crypto_execution = self.execute_crypto_strategies(crypto_strategies)
+        return stock_execution and crypto_execution
+
 
 
     def execute_stock_strategies(self, stock_strategies):
@@ -101,7 +106,7 @@ class Trading:
         ####TODO seperate teh below into a stock helper function. Make a similar but different crypto trading function
         # Handle trades for each strategy.
         # Calculate the budget per strategy.
-        balance = self.crypto.get_balance()
+        balance = self.crypto.get_balance('USD')
         budget = self.get_crypto_budget(balance, len(crypto_strategies))
 
         if not budget:
@@ -181,7 +186,7 @@ class Trading:
         """Calculates the budget per company based on the available balance."""
 
         if num_strategies <= 0:
-            self.logs.warn("No budget without strategies.")
+            self.logs.warn("No stock budget without strategies.")
             return 0.0
         return round(min(self.max_stock_position, max(0.0, balance - self.stock_cash_hold) / num_strategies), 2)
 
@@ -189,7 +194,7 @@ class Trading:
         """Calculates the budget per asset based on the available balance."""
 
         if num_strategies <= 0:
-            self.logs.warn("No budget without strategies.")
+            self.logs.warn("No crypto budget without strategies.")
             return 0.0
         return round(min(self.max_crypto_position, max(0.0, balance - self.crypto_cash_hold) / num_strategies), 2)
 
@@ -284,10 +289,11 @@ class Trading:
             response = self.crypto.get_order_fill(response['id'])
             if response['size'] != '0':
                 size = response['size']
+                buy_price = response['price']
                 break
 
         self.logs.info(f'Opening thread to place trailing stop sell order for {ticker}')
-        trailing_stop_thread = Thread(target=self.crypto.trailing_stop_order, args=(ticker, size, self.trail_percent))
+        trailing_stop_thread = Thread(target=self.crypto.trailing_stop_order, args=(ticker, size, self.trail_percent,buy_price))
         trailing_stop_thread.start()
 
         return True

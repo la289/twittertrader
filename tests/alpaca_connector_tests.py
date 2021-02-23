@@ -27,7 +27,7 @@ def test_get_market_status(alpaca):
     assert not alpaca.get_market_status()
 
 def test_get_balance(alpaca):
-    assert 0 <= alpaca.get_balance()
+    assert 98.22  == alpaca.get_balance()
 
 def test_get_last_price(alpaca):
     assert alpaca.get_last_price("BLDP") > 0.0

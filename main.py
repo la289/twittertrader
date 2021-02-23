@@ -20,7 +20,7 @@ BACKOFF_STEP_S = 0.1
 # The maximum number of retry steps, equivalent to 0.1 * (2^12 - 1) = 409.5
 # seconds of total delay. This is the largest interval that one backoff
 # sequence may take.
-MAX_TRIES = 100
+MAX_TRIES = 12
 
 # The time in seconds after which to reset a backoff sequence. This is the
 # smallest interval at which backoff sequences may repeat normally.
