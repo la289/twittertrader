@@ -1,6 +1,6 @@
 FROM python:3-stretch
 
-WORKDIR /trump2cash
+WORKDIR /twittertrader
 
 # Install the dependencies.
 ADD requirements.txt .
