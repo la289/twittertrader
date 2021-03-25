@@ -11,11 +11,11 @@ out a summary of its findings in real time.
 The code is written in Python and is meant to run on a
 [Google Compute Engine](https://cloud.google.com/compute/) instance. It uses the
 [Twitter Streaming APIs](https://dev.twitter.com/streaming/overview) to get
-notified whenever Influencer tweets. The entity detection and sentiment analysis is
+notified whenever influencers tweet. The entity detection and sentiment analysis is
 done using Google's
 [Cloud Natural Language API](https://cloud.google.com/natural-language/) and the
 [Wikidata Query Service](https://query.wikidata.org/) provides the company data.
-The [TradeKing API](https://developers.tradeking.com/) does the stock trading.
+The [Alpaca API](https://alpaca.markets/) and [Coinbase API](https://docs.pro.coinbase.com/) do the stock trading.
 
 The [`main`](main.py) module defines a callback where incoming tweets are
 handled and starts streaming the influencer's feed:
@@ -24,20 +24,14 @@ handled and starts streaming the influencer's feed:
 def twitter_callback(tweet):
     companies = analysis.find_companies(tweet)
     if companies:
-        trading.make_trades(companies)
+        trading_alpaca.make_trades(companies)
         twitter.tweet(companies, tweet)
 
 if __name__ == "__main__":
     twitter.start_streaming(twitter_callback)
 ```
 
-The core algorithms are implemented in the [`analysis`](analysis.py) and
-[`trading`](trading.py) modules. The former finds mentions of companies in the
-text of the tweet, figures out what their ticker symbol is, and assigns a
-sentiment score to them. The latter chooses a trading strategy, which is either
-buy now and sell at close or sell short now and buy to cover at close. The
-[`twitter`](twitter.py) module deals with streaming and tweeting out the
-summary.
+The core algorithms are implemented in the [`analysis`](analysis.py) and [`trading`](trading_alpaca.py) modules. The former finds mentions of companies or assets in the text of the tweet, figures out what their ticker symbol is, and assigns a sentiment score to them. The latter chooses a trading strategy, which is either buy now or hold. After a stock buy is executed, a trailing limit stop order is placed. The limit percent is pulled from the `.env` file. When trading crypto, the bot opens a stream and tracks the price to manually perform a trailing limit stop when the price trails by a limit percent (also pulled from `.env`).  The [`twitter`](twitter.py) module deals with streaming tweets and tweeting out the summary.
 
 Follow these steps to run the code yourself:
 
@@ -60,22 +54,22 @@ variables. Each service has different steps to obtain them.
 Log in to your [Twitter](https://twitter.com/) account and
 [create a new application](https://apps.twitter.com/app/new). Under the *Keys
 and Access Tokens* tab for [your app](https://apps.twitter.com/) you'll find
-the *Consumer Key* and *Consumer Secret*. Export both to environment variables:
+the *Consumer Key* and *Consumer Secret*. Add both to the `.env` file:
 
-```shell
-export TWITTER_CONSUMER_KEY="<YOUR_CONSUMER_KEY>"
-export TWITTER_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>"
+```bash
+TWITTER_CONSUMER_KEY="<YOUR_CONSUMER_KEY>"
+TWITTER_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>"
 ```
 
 If you want the tweets to come from the same account that owns the application,
 simply use the *Access Token* and *Access Token Secret* on the same page. If
 you want to tweet from a different account, follow the
 [steps to obtain an access token](https://dev.twitter.com/oauth/overview). Then
-export both to environment variables:
+add both to the `.env` file::
 
-```shell
-export TWITTER_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>"
-export TWITTER_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>"
+```bash
+TWITTER_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>"
+TWITTER_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>"
 ```
 
 #### Google
@@ -84,35 +78,16 @@ Follow the
 [Google Application Default Credentials instructions](https://developers.google.com/identity/protocols/application-default-credentials#howtheywork)
 to create, download, and export a service account key.
 
-```shell
-export GOOGLE_APPLICATION_CREDENTIALS="/path/to/credentials-file.json"
+```bash
+GOOGLE_APPLICATION_CREDENTIALS="/path/to/credentials-file.json"
 ```
 
 You also need to [enable the Cloud Natural Language API](https://cloud.google.com/natural-language/docs/getting-started#set_up_your_project)
 for your Google Cloud Platform project.
 
-#### TradeKing
+#### Alpaca
 
-Log in to your [TradeKing](https://www.tradeking.com/) account and
-[create a new application](https://developers.tradeking.com/applications/CreateApplication).
-Behind the *Details* button for
-[your application](https://developers.tradeking.com/Applications) you'll find
-the *Consumer Key*, *Consumer Secret*, *OAuth (Access) Token*, and *Oauth (Access)
-Token Secret*. Export them all to environment variables:
-
-```shell
-export TRADEKING_CONSUMER_KEY="<YOUR_CONSUMER_KEY>"
-export TRADEKING_CONSUMER_SECRET="<YOUR_CONSUMER_SECRET>"
-export TRADEKING_ACCESS_TOKEN="<YOUR_ACCESS_TOKEN>"
-export TRADEKING_ACCESS_TOKEN_SECRET="<YOUR_ACCESS_TOKEN_SECRET>"
-```
-
-Also export your TradeKing account number, which you'll find under
-*[My Accounts](https://investor.tradeking.com/Modules/Dashboard/dashboard.php)*:
-
-```shell
-export TRADEKING_ACCOUNT_NUMBER="<YOUR_ACCOUNT_NUMBER>"
-```
+### Coinbase Pro
 
 ### 3. Install dependencies
 
@@ -130,26 +105,29 @@ Verify that everything is working as intended by running the tests with
 command:
 
 ```shell
-$ export USE_REAL_MONEY=NO && pytest *.py -vv
+$ pytest *.py -vv
 ```
 
 ### 5. Run the benchmark
 
+WARNING: THE BENCHMARK IS SUPER OUTDATED, AS I HAVE NOT HAD TIME TO UPDATE IT FOR THE LATEST TRADING STRATEGIES.
 The [benchmark report](benchmark.md) shows how the current implementation of the
 analysis and trading algorithms would have performed against historical data.
-You can run it again to benchmark any changes you may have made. You'll need a [Polygon](https://polygon.io) account:
+You can run it again to benchmark any changes you may have made. You'll need a [Polygon](https://polygon.io) account and add the API key to the `.env` file:
+```bash
+POLYGON_API_KEY="<YOUR_POLYGON_API_KEY>"
+```
 
 ```shell
-$ export POLYGON_API_KEY="<YOUR_POLYGON_API_KEY>"
 $ python benchmark.py > benchmark.md
 ```
 
 ### 6. Start the bot
 
-Enable real orders that use your money:
+Enable real orders that use your by adding the following to the `.env` file:
 
-```shell
-$ export USE_REAL_MONEY=YES
+```bash
+USE_REAL_MONEY=YES
 ```
 
 Have the code start running in the background with this command:
