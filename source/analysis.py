@@ -70,7 +70,9 @@ class Analysis:
         self.language_client = language.LanguageServiceClient()
         self.twitter = Twitter(logs_to_cloud=logs_to_cloud)
         self.ml = MonkeyLearn(MONKEYLEARN_API_KEY)
-        self.sentiment_skew = getenv('SENTIMENT_SKEW')
+       lalon/coinbase_pro_integration
+        self.sentiment_skew = float(getenv('SENTIMENT_SKEW'))
+
 
     def get_company_data(self, mid):
         """Looks up stock ticker information for a company via its Freebase ID.
@@ -324,7 +326,9 @@ class Analysis:
         sentiment = self.language_client.analyze_sentiment(
             document).document_sentiment
 
-        sentiment_score = sentiment.score + self.sentiment_skew
+        lalon/coinbase_pro_integration
+        sentiment.score += self.sentiment_skew
+
         self.logs.debug(
             "Sentiment score and magnitude for text: %f %f \"%s\"" %
             (sentiment_score, sentiment.magnitude, text))

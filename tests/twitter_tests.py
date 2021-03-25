@@ -8,12 +8,13 @@ currentdir = os.path.dirname(os.path.realpath(__file__))
 parentdir = os.path.dirname(currentdir)
 sys.path.append(parentdir)
 
-from twitter import Twitter
-from twitter import TWITTER_CONSUMER_KEY
-from twitter import TWITTER_CONSUMER_SECRET
-from twitter import TWITTER_ACCESS_TOKEN
-from twitter import TWITTER_ACCESS_TOKEN_SECRET
-from analysis import Analysis
+from source.twitter import Twitter
+from source.twitter import TWITTER_CONSUMER_KEY
+from source.twitter import TWITTER_CONSUMER_SECRET
+from source.twitter import TWITTER_ACCESS_TOKEN
+from source.twitter import TWITTER_ACCESS_TOKEN_SECRET
+from source.twitter import INFLUENCER_USER_IDS
+from source.analysis import Analysis
 
 
 @fixture
@@ -24,10 +25,12 @@ def analysis():
     return Analysis()
 
 def test_environment_variables():
+    print(INFLUENCER_USER_IDS)
     assert TWITTER_CONSUMER_KEY
     assert TWITTER_CONSUMER_SECRET
     assert TWITTER_ACCESS_TOKEN
     assert TWITTER_ACCESS_TOKEN_SECRET
+    assert False
 
 
 def callback(tweet):
@@ -170,3 +173,4 @@ from pprint import pprint
 
 # def test_get_all_tweets(twitter):
 #     pprint(twitter.get_all_tweets())
+

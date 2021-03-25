@@ -164,45 +164,46 @@ class Trading:
 
         return (quantity, price)
 
-    def bull(self, ticker, budget):
-        """Executes the bullish strategy on the specified stock within the
-        specified budget: Buy now at market rate and sell at market rate at
-        close.
-        """
+        def bull(self, ticker, budget):
+            """Executes the bullish strategy on the specified stock within the
+            specified budget: Buy now at market rate and sell at market rate at
+            close.
+            """
 
-        # Calculate the quantity.
-        quantity, price = self.get_quantity(ticker, budget)
-        if not quantity:
-            self.logs.warn(f'Cannot trade quantity = {quantity}')
-            return False
+            # Calculate the quantity.
+            quantity, price = self.get_quantity(ticker, budget)
+            if not quantity:
+                self.logs.warn(f'Cannot trade quantity = {quantity}')
+                return False
 
-        # Buy the stock now.
-        buy_limit = self.get_buy_limit(price)
-        buy_status, buy_order_id = self.alpaca.submit_market_buy(ticker, quantity, buy_limit)
-        if buy_status not in self.alpaca.positive_statuses:
-            return False
+            # Buy the stock now.
+            self.logs.info(f'Trying to buy {quantity} units of {ticker}')
+            buy_limit = self.get_buy_limit(price)
+            buy_status, buy_order_id = self.alpaca.submit_market_buy(ticker, quantity, buy_limit)
+            if buy_status not in self.alpaca.positive_statuses:
+                return False
 
-        # TODO: Do this properly by checking the order status API and using
-        #       retries with exponential backoff.
-        #wait for stock order to be filled
-        timeout = time.time() + 60*10
-        check_interval = 15
-        while self.alpaca.get_order_status(buy_order_id) != 'filled' and time.time() > timeout:
-            time.sleep(check_interval) #order not filled for 10 minutes
-            check_interval *= 1.1
+            # TODO: Do this properly by checking the order status API and using
+            #       retries with exponential backoff.
+            #wait for stock order to be filled
+            timeout = time.time() + 60*10
+            check_interval = 15
+            while self.alpaca.get_order_status(buy_order_id) != 'filled' and time.time() > timeout:
+                time.sleep(check_interval) #order not filled for 10 minutes
+                check_interval *= 1.1
 
-        if self.alpaca.get_order_status(buy_order_id) != 'filled':
-            self.logs.warn(f'Not able to fill buy for {ticker}. Cancelling order')
-            self.alpaca.cancel_order(buy_order_id)
-            return False
+            if self.alpaca.get_order_status(buy_order_id) != 'filled':
+                self.logs.warn(f'Not able to fill buy for {ticker}. Cancelling order')
+                self.alpaca.cancel_order(buy_order_id)
+                return False
 
-        self.logs.warn(f'Trying to place trailing stop sell order for {ticker}')
-        #Create trailing_stop_order
-        sell_order_status, sell_order_id = self.alpaca.submit_trailing_stop(ticker, quantity, self.trail_percent)
-        if sell_order_status == False:
-            self.logs.error(f'Not able to place trailing_stop sell order for {ticker}. Order status: {sell_order_status} | Order ID: {sell_order_id}')
+            self.logs.warn(f'Trying to place trailing stop sell order for {ticker}')
+            #Create trailing_stop_order
+            sell_order_status, sell_order_id = self.alpaca.submit_trailing_stop(ticker, quantity, self.trail_percent)
+            if sell_order_status == False:
+                self.logs.error(f'Not able to place trailing_stop sell order for {ticker}. Order status: {sell_order_status} | Order ID: {sell_order_id}')
 
-        return True
+            return True
 
 
     def bear(self, ticker, budget):

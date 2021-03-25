@@ -40,54 +40,56 @@ class AlpacaConnector():
 
 
     def get_balance(self):
-        try:
-            account = self.API.get_account()
-            return float(account.buying_power)
-        except:
-            self.logs.warn(f'Not able to get account balance')
-            return 0
+        account = self.API.get_account()
+        if hasattr(account, 'cash'):
+            return float(account.cash)
+
+        self.logs.warn(f'Not able to get account balance')
+        return 0
 
 
     def get_last_price(self,ticker):
-        try:
-            ticker.replace('$','')
-            quote = self.polygon.last_quote(ticker)
-            self.logs.debug(f'Quote for {ticker}: {quote.bidprice}')
+        ticker.replace('$','')
+        quote = self.polygon.last_quote(ticker)
+        self.logs.debug(f'Quote for {ticker}: {quote.bidprice}')
+        if hasattr(quote, 'bidprice'):
             return quote.bidprice
-        except:
+        else:
             self.logs.warn(f'Not able to retrieve last price for {ticker}')
             return -1
 
     def submit_market_buy(self,symbol,qty,limit):
-        try:
-            response = self.API.submit_order(
-                symbol = symbol,
-                qty = str(qty),
-                side = 'buy',
-                type = 'limit',
-                time_in_force = 'day',
-                limit_price=str(limit)
-            )
-            self.logs.info(f'Making a trade: Buying {qty} units of {symbol} at limit price of {limit}')
+
+        self.logs.info(f'Making a trade: Buying {qty} units of {symbol} at limit price of {limit}')
+        response = self.API.submit_order(
+            symbol = symbol,
+            qty = str(qty),
+            side = 'buy',
+            type = 'limit',
+            time_in_force = 'day',
+            limit_price=str(limit)
+        )
+        self.logs.info(f'Order response: {response}')
+        if hasattr(response, 'status'):
             return (response.status, response.id)
-        except:
+        else:
             self.logs.warn(f'Not able to place order for {symbol}')
             return (False, "-1")
 
     def submit_trailing_stop(self,symbol,qty,trail_percent):
-        try:
-            self.API.submit_order(
-                symbol = symbol,
-                qty = string(qty),
-                side = 'sell',
-                type = 'trailing_stop',
-                time_in_force = 'gtc',
-                trail_percent=trail_percent
-                )
-            self.logs.info('Trailing stop order status: response.status. Order ID: response.id')
+        response = self.API.submit_order(
+            symbol = symbol,
+            qty = str(qty),
+            side = 'sell',
+            type = 'trailing_stop',
+            time_in_force = 'gtc',
+            trail_percent=str(trail_percent)
+            )
+        if hasattr(response, 'status'):
+            self.logs.info(f'Trailing stop order status: {response.status}. Order ID: {response.id}')
             return (response.status, response.id)
-        except:
-            self.logs.warn(f'Not able to place trailing_stop sell order for {symbol}')
+        else:
+            self.logs.warn(f'Not able to place trailing_stop sell order for {symbol}. QTY: {qty}. t_pct: {trail_percent}')
             return (False, "-1")
 
     def cancel_order(self, order_id):
@@ -97,11 +99,9 @@ class AlpacaConnector():
 
             if self.get_order_status(order_id) == 'canceled':
                 return True
-        except:
-            pass
-
-        self.logs.warn(f'Not able to cancel order with order_id: {order_id}')
-        return False
+        except alpaca_trade_api.rest.APIError:
+            self.logs.warn(f'Not able to cancel order with order_id: {order_id}')
+            return False
 
     def get_order_status(self, order_id):
         return self.API.get_order(order_id).status
